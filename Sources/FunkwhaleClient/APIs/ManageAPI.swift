@@ -1862,9 +1862,9 @@ open class ManageAPI {
      * enum for parameter ordering
      */
     public enum Ordering_adminGetLibraries: String, CaseIterable {
-        case creationDate = "-creation_date"
-        case followersCount = "-followers_count"
-        case uploadsCount = "-uploads_count"
+        case creationDateDesc = "-creation_date"
+        case followersCountDesc = "-followers_count"
+        case uploadsCountDesc = "-uploads_count"
         case creationDate = "creation_date"
         case followersCount = "followers_count"
         case uploadsCount = "uploads_count"
@@ -2501,12 +2501,12 @@ open class ManageAPI {
      * enum for parameter ordering
      */
     public enum Ordering_adminGetUploads: String, CaseIterable {
-        case accessedDate = "-accessed_date"
-        case bitrate = "-bitrate"
-        case creationDate = "-creation_date"
-        case duration = "-duration"
-        case modificationDate = "-modification_date"
-        case size = "-size"
+        case accessedDateDesc = "-accessed_date"
+        case bitrateDesc = "-bitrate"
+        case creationDateDesc = "-creation_date"
+        case durationDesc = "-duration"
+        case modificationDateDesc = "-modification_date"
+        case sizeDesc = "-size"
         case accessedDate = "accessed_date"
         case bitrate = "bitrate"
         case creationDate = "creation_date"

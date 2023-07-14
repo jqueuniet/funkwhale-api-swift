@@ -69,9 +69,9 @@ open class TagsAPI {
      * enum for parameter ordering
      */
     public enum Ordering_getTags: String, CaseIterable {
-        case creationDate = "-creation_date"
-        case length = "-length"
-        case name = "-name"
+        case creationDateDesc = "-creation_date"
+        case lengthDesc = "-length"
+        case nameDesc = "-name"
         case creationDate = "creation_date"
         case length = "length"
         case name = "name"

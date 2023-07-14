@@ -173,12 +173,12 @@ open class ArtistsAPI {
      * enum for parameter ordering
      */
     public enum Ordering_getArtistFetches: String, CaseIterable {
-        case creationDate = "-creation_date"
-        case id = "-id"
-        case modificationDate = "-modification_date"
-        case name = "-name"
-        case random = "-random"
-        case related = "-related"
+        case creationDateDesc = "-creation_date"
+        case idDesc = "-id"
+        case modificationDateDesc = "-modification_date"
+        case nameDesc = "-name"
+        case randomDesc = "-random"
+        case relatedDesc = "-related"
         case creationDate = "creation_date"
         case id = "id"
         case modificationDate = "modification_date"
@@ -297,12 +297,12 @@ open class ArtistsAPI {
      * enum for parameter ordering
      */
     public enum Ordering_getArtistLibraries: String, CaseIterable {
-        case creationDate = "-creation_date"
-        case id = "-id"
-        case modificationDate = "-modification_date"
-        case name = "-name"
-        case random = "-random"
-        case related = "-related"
+        case creationDateDesc = "-creation_date"
+        case idDesc = "-id"
+        case modificationDateDesc = "-modification_date"
+        case nameDesc = "-name"
+        case randomDesc = "-random"
+        case relatedDesc = "-related"
         case creationDate = "creation_date"
         case id = "id"
         case modificationDate = "modification_date"
@@ -421,12 +421,12 @@ open class ArtistsAPI {
      * enum for parameter ordering
      */
     public enum Ordering_getArtistMutations: String, CaseIterable {
-        case creationDate = "-creation_date"
-        case id = "-id"
-        case modificationDate = "-modification_date"
-        case name = "-name"
-        case random = "-random"
-        case related = "-related"
+        case creationDateDesc = "-creation_date"
+        case idDesc = "-id"
+        case modificationDateDesc = "-modification_date"
+        case namDesce = "-name"
+        case randomDesc = "-random"
+        case relatedDesc = "-related"
         case creationDate = "creation_date"
         case id = "id"
         case modificationDate = "modification_date"
@@ -545,12 +545,12 @@ open class ArtistsAPI {
      * enum for parameter ordering
      */
     public enum Ordering_getArtists: String, CaseIterable {
-        case creationDate = "-creation_date"
-        case id = "-id"
-        case modificationDate = "-modification_date"
-        case name = "-name"
-        case random = "-random"
-        case related = "-related"
+        case creationDateDesc = "-creation_date"
+        case idDesc = "-id"
+        case modificationDateDesc = "-modification_date"
+        case nameDesc = "-name"
+        case randomDesc = "-random"
+        case relatedDesc = "-related"
         case creationDate = "creation_date"
         case id = "id"
         case modificationDate = "modification_date"

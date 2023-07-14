@@ -270,12 +270,12 @@ open class AlbumsAPI {
      * enum for parameter ordering
      */
     public enum Ordering_getAlbumFetches: String, CaseIterable {
-        case artistModificationDate = "-artist__modification_date"
-        case creationDate = "-creation_date"
-        case random = "-random"
-        case related = "-related"
-        case releaseDate = "-release_date"
-        case title = "-title"
+        case artistModificationDateDesc = "-artist__modification_date"
+        case creationDateDesc = "-creation_date"
+        case randomDesc = "-random"
+        case relatedDesc = "-related"
+        case releaseDateDesc = "-release_date"
+        case titleDesc = "-title"
         case artistModificationDate = "artist__modification_date"
         case creationDate = "creation_date"
         case random = "random"
@@ -385,12 +385,12 @@ open class AlbumsAPI {
      * enum for parameter ordering
      */
     public enum Ordering_getAlbumLibraries: String, CaseIterable {
-        case artistModificationDate = "-artist__modification_date"
-        case creationDate = "-creation_date"
-        case random = "-random"
-        case related = "-related"
-        case releaseDate = "-release_date"
-        case title = "-title"
+        case artistModificationDateDesc = "-artist__modification_date"
+        case creationDateDesc = "-creation_date"
+        case randomDesc = "-random"
+        case relatedDesc = "-related"
+        case releaseDateDesc = "-release_date"
+        case titleDesc = "-title"
         case artistModificationDate = "artist__modification_date"
         case creationDate = "creation_date"
         case random = "random"
@@ -500,12 +500,12 @@ open class AlbumsAPI {
      * enum for parameter ordering
      */
     public enum Ordering_getAlbumMutations: String, CaseIterable {
-        case artistModificationDate = "-artist__modification_date"
-        case creationDate = "-creation_date"
-        case random = "-random"
-        case related = "-related"
-        case releaseDate = "-release_date"
-        case title = "-title"
+        case artistModificationDateDesc = "-artist__modification_date"
+        case creationDateDesc = "-creation_date"
+        case randomDesc = "-random"
+        case relatedDesc = "-related"
+        case releaseDateDesc = "-release_date"
+        case titleDesc = "-title"
         case artistModificationDate = "artist__modification_date"
         case creationDate = "creation_date"
         case random = "random"
@@ -615,12 +615,12 @@ open class AlbumsAPI {
      * enum for parameter ordering
      */
     public enum Ordering_getAlbums: String, CaseIterable {
-        case artistModificationDate = "-artist__modification_date"
-        case creationDate = "-creation_date"
-        case random = "-random"
-        case related = "-related"
-        case releaseDate = "-release_date"
-        case title = "-title"
+        case artistModificationDateDesc = "-artist__modification_date"
+        case creationDateDesc = "-creation_date"
+        case randomDesc = "-random"
+        case relatedDesc = "-related"
+        case releaseDateDesc = "-release_date"
+        case titleDesc = "-title"
         case artistModificationDate = "artist__modification_date"
         case creationDate = "creation_date"
         case random = "random"

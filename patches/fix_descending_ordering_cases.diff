@@ -1,0 +1,350 @@
+diff --git Sources/FunkwhaleClient/APIs/AlbumsAPI.swift Sources/FunkwhaleClient/APIs/AlbumsAPI.swift
+index bc8314e..ebd6e70 100644
+--- Sources/FunkwhaleClient/APIs/AlbumsAPI.swift
++++ Sources/FunkwhaleClient/APIs/AlbumsAPI.swift
+@@ -270,12 +270,12 @@ open class AlbumsAPI {
+      * enum for parameter ordering
+      */
+     public enum Ordering_getAlbumFetches: String, CaseIterable {
+-        case artistModificationDate = "-artist__modification_date"
+-        case creationDate = "-creation_date"
+-        case random = "-random"
+-        case related = "-related"
+-        case releaseDate = "-release_date"
+-        case title = "-title"
++        case artistModificationDateDesc = "-artist__modification_date"
++        case creationDateDesc = "-creation_date"
++        case randomDesc = "-random"
++        case relatedDesc = "-related"
++        case releaseDateDesc = "-release_date"
++        case titleDesc = "-title"
+         case artistModificationDate = "artist__modification_date"
+         case creationDate = "creation_date"
+         case random = "random"
+@@ -385,12 +385,12 @@ open class AlbumsAPI {
+      * enum for parameter ordering
+      */
+     public enum Ordering_getAlbumLibraries: String, CaseIterable {
+-        case artistModificationDate = "-artist__modification_date"
+-        case creationDate = "-creation_date"
+-        case random = "-random"
+-        case related = "-related"
+-        case releaseDate = "-release_date"
+-        case title = "-title"
++        case artistModificationDateDesc = "-artist__modification_date"
++        case creationDateDesc = "-creation_date"
++        case randomDesc = "-random"
++        case relatedDesc = "-related"
++        case releaseDateDesc = "-release_date"
++        case titleDesc = "-title"
+         case artistModificationDate = "artist__modification_date"
+         case creationDate = "creation_date"
+         case random = "random"
+@@ -500,12 +500,12 @@ open class AlbumsAPI {
+      * enum for parameter ordering
+      */
+     public enum Ordering_getAlbumMutations: String, CaseIterable {
+-        case artistModificationDate = "-artist__modification_date"
+-        case creationDate = "-creation_date"
+-        case random = "-random"
+-        case related = "-related"
+-        case releaseDate = "-release_date"
+-        case title = "-title"
++        case artistModificationDateDesc = "-artist__modification_date"
++        case creationDateDesc = "-creation_date"
++        case randomDesc = "-random"
++        case relatedDesc = "-related"
++        case releaseDateDesc = "-release_date"
++        case titleDesc = "-title"
+         case artistModificationDate = "artist__modification_date"
+         case creationDate = "creation_date"
+         case random = "random"
+@@ -615,12 +615,12 @@ open class AlbumsAPI {
+      * enum for parameter ordering
+      */
+     public enum Ordering_getAlbums: String, CaseIterable {
+-        case artistModificationDate = "-artist__modification_date"
+-        case creationDate = "-creation_date"
+-        case random = "-random"
+-        case related = "-related"
+-        case releaseDate = "-release_date"
+-        case title = "-title"
++        case artistModificationDateDesc = "-artist__modification_date"
++        case creationDateDesc = "-creation_date"
++        case randomDesc = "-random"
++        case relatedDesc = "-related"
++        case releaseDateDesc = "-release_date"
++        case titleDesc = "-title"
+         case artistModificationDate = "artist__modification_date"
+         case creationDate = "creation_date"
+         case random = "random"
+diff --git Sources/FunkwhaleClient/APIs/ArtistsAPI.swift Sources/FunkwhaleClient/APIs/ArtistsAPI.swift
+index 47daa87..d53dce1 100644
+--- Sources/FunkwhaleClient/APIs/ArtistsAPI.swift
++++ Sources/FunkwhaleClient/APIs/ArtistsAPI.swift
+@@ -173,12 +173,12 @@ open class ArtistsAPI {
+      * enum for parameter ordering
+      */
+     public enum Ordering_getArtistFetches: String, CaseIterable {
+-        case creationDate = "-creation_date"
+-        case id = "-id"
+-        case modificationDate = "-modification_date"
+-        case name = "-name"
+-        case random = "-random"
+-        case related = "-related"
++        case creationDateDesc = "-creation_date"
++        case idDesc = "-id"
++        case modificationDateDesc = "-modification_date"
++        case nameDesc = "-name"
++        case randomDesc = "-random"
++        case relatedDesc = "-related"
+         case creationDate = "creation_date"
+         case id = "id"
+         case modificationDate = "modification_date"
+@@ -297,12 +297,12 @@ open class ArtistsAPI {
+      * enum for parameter ordering
+      */
+     public enum Ordering_getArtistLibraries: String, CaseIterable {
+-        case creationDate = "-creation_date"
+-        case id = "-id"
+-        case modificationDate = "-modification_date"
+-        case name = "-name"
+-        case random = "-random"
+-        case related = "-related"
++        case creationDateDesc = "-creation_date"
++        case idDesc = "-id"
++        case modificationDateDesc = "-modification_date"
++        case nameDesc = "-name"
++        case randomDesc = "-random"
++        case relatedDesc = "-related"
+         case creationDate = "creation_date"
+         case id = "id"
+         case modificationDate = "modification_date"
+@@ -421,12 +421,12 @@ open class ArtistsAPI {
+      * enum for parameter ordering
+      */
+     public enum Ordering_getArtistMutations: String, CaseIterable {
+-        case creationDate = "-creation_date"
+-        case id = "-id"
+-        case modificationDate = "-modification_date"
+-        case name = "-name"
+-        case random = "-random"
+-        case related = "-related"
++        case creationDateDesc = "-creation_date"
++        case idDesc = "-id"
++        case modificationDateDesc = "-modification_date"
++        case namDesce = "-name"
++        case randomDesc = "-random"
++        case relatedDesc = "-related"
+         case creationDate = "creation_date"
+         case id = "id"
+         case modificationDate = "modification_date"
+@@ -545,12 +545,12 @@ open class ArtistsAPI {
+      * enum for parameter ordering
+      */
+     public enum Ordering_getArtists: String, CaseIterable {
+-        case creationDate = "-creation_date"
+-        case id = "-id"
+-        case modificationDate = "-modification_date"
+-        case name = "-name"
+-        case random = "-random"
+-        case related = "-related"
++        case creationDateDesc = "-creation_date"
++        case idDesc = "-id"
++        case modificationDateDesc = "-modification_date"
++        case nameDesc = "-name"
++        case randomDesc = "-random"
++        case relatedDesc = "-related"
+         case creationDate = "creation_date"
+         case id = "id"
+         case modificationDate = "modification_date"
+diff --git Sources/FunkwhaleClient/APIs/ChannelsAPI.swift Sources/FunkwhaleClient/APIs/ChannelsAPI.swift
+index 51b3d08..b240944 100644
+--- Sources/FunkwhaleClient/APIs/ChannelsAPI.swift
++++ Sources/FunkwhaleClient/APIs/ChannelsAPI.swift
+@@ -261,9 +261,9 @@ open class ChannelsAPI {
+      * enum for parameter ordering
+      */
+     public enum Ordering_getChannels: String, CaseIterable {
+-        case creationDate = "-creation_date"
+-        case modificationDate = "-modification_date"
+-        case random = "-random"
++        case creationDateDesc = "-creation_date"
++        case modificationDateDesc = "-modification_date"
++        case randomDesc = "-random"
+         case creationDate = "creation_date"
+         case modificationDate = "modification_date"
+         case random = "random"
+diff --git Sources/FunkwhaleClient/APIs/ManageAPI.swift Sources/FunkwhaleClient/APIs/ManageAPI.swift
+index ec93b07..f2dbdb2 100644
+--- Sources/FunkwhaleClient/APIs/ManageAPI.swift
++++ Sources/FunkwhaleClient/APIs/ManageAPI.swift
+@@ -1862,9 +1862,9 @@ open class ManageAPI {
+      * enum for parameter ordering
+      */
+     public enum Ordering_adminGetLibraries: String, CaseIterable {
+-        case creationDate = "-creation_date"
+-        case followersCount = "-followers_count"
+-        case uploadsCount = "-uploads_count"
++        case creationDateDesc = "-creation_date"
++        case followersCountDesc = "-followers_count"
++        case uploadsCountDesc = "-uploads_count"
+         case creationDate = "creation_date"
+         case followersCount = "followers_count"
+         case uploadsCount = "uploads_count"
+@@ -2501,12 +2501,12 @@ open class ManageAPI {
+      * enum for parameter ordering
+      */
+     public enum Ordering_adminGetUploads: String, CaseIterable {
+-        case accessedDate = "-accessed_date"
+-        case bitrate = "-bitrate"
+-        case creationDate = "-creation_date"
+-        case duration = "-duration"
+-        case modificationDate = "-modification_date"
+-        case size = "-size"
++        case accessedDateDesc = "-accessed_date"
++        case bitrateDesc = "-bitrate"
++        case creationDateDesc = "-creation_date"
++        case durationDesc = "-duration"
++        case modificationDateDesc = "-modification_date"
++        case sizeDesc = "-size"
+         case accessedDate = "accessed_date"
+         case bitrate = "bitrate"
+         case creationDate = "creation_date"
+diff --git Sources/FunkwhaleClient/APIs/TagsAPI.swift Sources/FunkwhaleClient/APIs/TagsAPI.swift
+index facbd8f..ae949d9 100644
+--- Sources/FunkwhaleClient/APIs/TagsAPI.swift
++++ Sources/FunkwhaleClient/APIs/TagsAPI.swift
+@@ -69,9 +69,9 @@ open class TagsAPI {
+      * enum for parameter ordering
+      */
+     public enum Ordering_getTags: String, CaseIterable {
+-        case creationDate = "-creation_date"
+-        case length = "-length"
+-        case name = "-name"
++        case creationDateDesc = "-creation_date"
++        case lengthDesc = "-length"
++        case nameDesc = "-name"
+         case creationDate = "creation_date"
+         case length = "length"
+         case name = "name"
+diff --git Sources/FunkwhaleClient/APIs/TracksAPI.swift Sources/FunkwhaleClient/APIs/TracksAPI.swift
+index 54f2d4c..17615d5 100644
+--- Sources/FunkwhaleClient/APIs/TracksAPI.swift
++++ Sources/FunkwhaleClient/APIs/TracksAPI.swift
+@@ -227,17 +227,17 @@ open class TracksAPI {
+      * enum for parameter ordering
+      */
+     public enum Ordering_getTrackFetches: String, CaseIterable {
+-        case albumReleaseDate = "-album__release_date"
+-        case albumTitle = "-album__title"
+-        case artistModificationDate = "-artist__modification_date"
+-        case artistName = "-artist__name"
+-        case creationDate = "-creation_date"
+-        case discNumber = "-disc_number"
+-        case position = "-position"
+-        case random = "-random"
+-        case related = "-related"
+-        case size = "-size"
+-        case title = "-title"
++        case albumReleaseDateDesc = "-album__release_date"
++        case albumTitleDesc = "-album__title"
++        case artistModificationDateDesc = "-artist__modification_date"
++        case artistNameDesc = "-artist__name"
++        case creationDateDesc = "-creation_date"
++        case discNumberDesc = "-disc_number"
++        case positionDesc = "-position"
++        case randomDesc = "-random"
++        case relatedDesc = "-related"
++        case sizeDesc = "-size"
++        case titleDesc = "-title"
+         case albumReleaseDate = "album__release_date"
+         case albumTitle = "album__title"
+         case artistModificationDate = "artist__modification_date"
+@@ -368,17 +368,17 @@ open class TracksAPI {
+      * enum for parameter ordering
+      */
+     public enum Ordering_getTrackLibraries: String, CaseIterable {
+-        case albumReleaseDate = "-album__release_date"
+-        case albumTitle = "-album__title"
+-        case artistModificationDate = "-artist__modification_date"
+-        case artistName = "-artist__name"
+-        case creationDate = "-creation_date"
+-        case discNumber = "-disc_number"
+-        case position = "-position"
+-        case random = "-random"
+-        case related = "-related"
+-        case size = "-size"
+-        case title = "-title"
++        case albumReleaseDateDesc = "-album__release_date"
++        case albumTitleDesc = "-album__title"
++        case artistModificationDateDesc = "-artist__modification_date"
++        case artistNameDesc = "-artist__name"
++        case creationDateDesc = "-creation_date"
++        case discNumberDesc = "-disc_number"
++        case positionDesc = "-position"
++        case randomDesc = "-random"
++        case relatedDesc = "-related"
++        case sizeDesc = "-size"
++        case titleDesc = "-title"
+         case albumReleaseDate = "album__release_date"
+         case albumTitle = "album__title"
+         case artistModificationDate = "artist__modification_date"
+@@ -509,17 +509,17 @@ open class TracksAPI {
+      * enum for parameter ordering
+      */
+     public enum Ordering_getTrackMutations: String, CaseIterable {
+-        case albumReleaseDate = "-album__release_date"
+-        case albumTitle = "-album__title"
+-        case artistModificationDate = "-artist__modification_date"
+-        case artistName = "-artist__name"
+-        case creationDate = "-creation_date"
+-        case discNumber = "-disc_number"
+-        case position = "-position"
+-        case random = "-random"
+-        case related = "-related"
+-        case size = "-size"
+-        case title = "-title"
++        case albumReleaseDateDesc = "-album__release_date"
++        case albumTitleDesc = "-album__title"
++        case artistModificationDateDesc = "-artist__modification_date"
++        case artistNameDesc = "-artist__name"
++        case creationDateDesc = "-creation_date"
++        case discNumberDesc = "-disc_number"
++        case positionDesc = "-position"
++        case randomDesc = "-random"
++        case relatedDesc = "-related"
++        case sizeDesc = "-size"
++        case titleDesc = "-title"
+         case albumReleaseDate = "album__release_date"
+         case albumTitle = "album__title"
+         case artistModificationDate = "artist__modification_date"
+@@ -650,17 +650,17 @@ open class TracksAPI {
+      * enum for parameter ordering
+      */
+     public enum Ordering_getTracks: String, CaseIterable {
+-        case albumReleaseDate = "-album__release_date"
+-        case albumTitle = "-album__title"
+-        case artistModificationDate = "-artist__modification_date"
+-        case artistName = "-artist__name"
+-        case creationDate = "-creation_date"
+-        case discNumber = "-disc_number"
+-        case position = "-position"
+-        case random = "-random"
+-        case related = "-related"
+-        case size = "-size"
+-        case title = "-title"
++        case albumReleaseDateDesc = "-album__release_date"
++        case albumTitleDesc = "-album__title"
++        case artistModificationDateDesc = "-artist__modification_date"
++        case artistNameDesc = "-artist__name"
++        case creationDateDesc = "-creation_date"
++        case discNumberDesc = "-disc_number"
++        case positionDesc = "-position"
++        case randomDesc = "-random"
++        case relatedDesc = "-related"
++        case sizeDesc = "-size"
++        case titleDesc = "-title"
+         case albumReleaseDate = "album__release_date"
+         case albumTitle = "album__title"
+         case artistModificationDate = "artist__modification_date"
