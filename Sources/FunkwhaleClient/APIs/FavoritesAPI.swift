@@ -35,7 +35,7 @@ open class FavoritesAPI {
 
     /**
      - DELETE /api/v1/favorites/tracks/{id}/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -85,7 +85,7 @@ open class FavoritesAPI {
 
     /**
      - POST /api/v1/favorites/tracks/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -132,7 +132,7 @@ open class FavoritesAPI {
     /**
      - GET /api/v1/favorites/tracks/all/
      - Return all the favorites of the current user, with only limited data to have a performant endpoint and avoid lots of queries just to display favorites status in the UI
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -183,7 +183,7 @@ open class FavoritesAPI {
 
     /**
      - GET /api/v1/favorites/tracks/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -242,7 +242,7 @@ open class FavoritesAPI {
 
     /**
      - DELETE /api/v1/favorites/tracks/remove/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -288,7 +288,7 @@ open class FavoritesAPI {
 
     /**
      - POST /api/v1/favorites/tracks/remove/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:

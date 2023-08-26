@@ -170,10 +170,7 @@ Sources/FunkwhaleClient/Models/ModerationTargetTypeEnum.swift
 Sources/FunkwhaleClient/Models/NestedLibraryFollow.swift
 Sources/FunkwhaleClient/Models/NestedLibraryFollowRequest.swift
 Sources/FunkwhaleClient/Models/NodeInfo20.swift
-Sources/FunkwhaleClient/Models/NodeInfo20Services.swift
 Sources/FunkwhaleClient/Models/NodeInfoLibrary.swift
-Sources/FunkwhaleClient/Models/NodeInfoLibraryMusic.swift
-Sources/FunkwhaleClient/Models/NodeInfoLibraryTracks.swift
 Sources/FunkwhaleClient/Models/Oembed.swift
 Sources/FunkwhaleClient/Models/PaginatedAPIMutationList.swift
 Sources/FunkwhaleClient/Models/PaginatedAlbumList.swift
@@ -441,10 +438,7 @@ docs/MutationsAPI.md
 docs/NestedLibraryFollow.md
 docs/NestedLibraryFollowRequest.md
 docs/NodeInfo20.md
-docs/NodeInfo20Services.md
 docs/NodeInfoLibrary.md
-docs/NodeInfoLibraryMusic.md
-docs/NodeInfoLibraryTracks.md
 docs/OauthAPI.md
 docs/Oembed.md
 docs/OembedAPI.md

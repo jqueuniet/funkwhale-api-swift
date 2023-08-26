@@ -35,7 +35,7 @@ open class LibrariesAPI {
 
     /**
      - POST /api/v1/libraries/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -82,7 +82,7 @@ open class LibrariesAPI {
 
     /**
      - POST /api/v1/libraries/fs-import/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -129,7 +129,7 @@ open class LibrariesAPI {
 
     /**
      - DELETE /api/v1/libraries/{uuid}/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -178,7 +178,7 @@ open class LibrariesAPI {
 
     /**
      - DELETE /api/v1/libraries/fs-import/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -238,7 +238,7 @@ open class LibrariesAPI {
 
     /**
      - GET /api/v1/libraries/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -298,7 +298,7 @@ open class LibrariesAPI {
 
     /**
      - GET /api/v1/libraries/{uuid}/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -363,7 +363,7 @@ open class LibrariesAPI {
 
     /**
      - GET /api/v1/libraries/{uuid}/follows/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -426,7 +426,7 @@ open class LibrariesAPI {
 
     /**
      - GET /api/v1/libraries/fs-import/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -473,7 +473,7 @@ open class LibrariesAPI {
 
     /**
      - PATCH /api/v1/libraries/{uuid}/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -525,7 +525,7 @@ open class LibrariesAPI {
 
     /**
      - PUT /api/v1/libraries/{uuid}/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:

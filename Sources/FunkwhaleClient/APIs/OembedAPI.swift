@@ -34,7 +34,7 @@ open class OembedAPI {
 
     /**
      - GET /api/v1/oembed/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:

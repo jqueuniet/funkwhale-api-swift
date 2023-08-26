@@ -35,7 +35,7 @@ open class ListenAPI {
 
     /**
      - GET /api/v1/listen/{uuid}/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:

@@ -35,7 +35,7 @@ open class StreamAPI {
 
     /**
      - GET /api/v1/stream/{uuid}/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:

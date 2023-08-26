@@ -36,7 +36,7 @@ open class MutationsAPI {
 
     /**
      - POST /api/v1/mutations/{uuid}/approve/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -87,7 +87,7 @@ open class MutationsAPI {
 
     /**
      - DELETE /api/v1/mutations/{uuid}/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -137,7 +137,7 @@ open class MutationsAPI {
 
     /**
      - GET /api/v1/mutations/{uuid}/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -193,7 +193,7 @@ open class MutationsAPI {
 
     /**
      - GET /api/v1/mutations/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -256,7 +256,7 @@ open class MutationsAPI {
 
     /**
      - POST /api/v1/mutations/{uuid}/reject/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:

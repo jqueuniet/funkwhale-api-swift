@@ -35,7 +35,7 @@ open class HistoryAPI {
 
     /**
      - POST /api/v1/history/listenings/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -82,7 +82,7 @@ open class HistoryAPI {
 
     /**
      - GET /api/v1/history/listenings/{id}/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -138,7 +138,7 @@ open class HistoryAPI {
 
     /**
      - GET /api/v1/history/listenings/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:

@@ -35,7 +35,7 @@ open class AttachmentsAPI {
 
     /**
      - POST /api/v1/attachments/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -82,7 +82,7 @@ open class AttachmentsAPI {
 
     /**
      - DELETE /api/v1/attachments/{uuid}/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -132,7 +132,7 @@ open class AttachmentsAPI {
 
     /**
      - GET /api/v1/attachments/{uuid}/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:

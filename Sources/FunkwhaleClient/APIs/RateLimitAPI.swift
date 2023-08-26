@@ -34,7 +34,7 @@ open class RateLimitAPI {
 
     /**
      - GET /api/v1/rate-limit/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:

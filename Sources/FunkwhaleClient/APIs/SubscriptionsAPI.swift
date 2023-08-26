@@ -35,7 +35,7 @@ open class SubscriptionsAPI {
     /**
      - GET /api/v1/subscriptions/all/
      - Return all the subscriptions of the current user, with only limited data to have a performant endpoint and avoid lots of queries just to display subscription status in the UI
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -81,7 +81,7 @@ open class SubscriptionsAPI {
 
     /**
      - GET /api/v1/subscriptions/{uuid}/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -133,7 +133,7 @@ open class SubscriptionsAPI {
 
     /**
      - GET /api/v1/subscriptions/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:

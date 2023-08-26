@@ -35,7 +35,7 @@ open class RadiosAPI {
 
     /**
      - POST /api/v1/radios/radios/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -82,7 +82,7 @@ open class RadiosAPI {
 
     /**
      - POST /api/v1/radios/sessions/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -129,7 +129,7 @@ open class RadiosAPI {
 
     /**
      - DELETE /api/v1/radios/radios/{id}/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -179,7 +179,7 @@ open class RadiosAPI {
 
     /**
      - POST /api/v1/radios/tracks/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -226,7 +226,7 @@ open class RadiosAPI {
 
     /**
      - GET /api/v1/radios/radios/{id}/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -275,7 +275,7 @@ open class RadiosAPI {
 
     /**
      - GET /api/v1/radios/radios/filters/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -321,7 +321,7 @@ open class RadiosAPI {
 
     /**
      - GET /api/v1/radios/sessions/{id}/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -371,7 +371,7 @@ open class RadiosAPI {
 
     /**
      - GET /api/v1/radios/radios/{id}/tracks/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -429,7 +429,7 @@ open class RadiosAPI {
 
     /**
      - GET /api/v1/radios/radios/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -496,7 +496,7 @@ open class RadiosAPI {
 
     /**
      - PATCH /api/v1/radios/radios/{id}/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -548,7 +548,7 @@ open class RadiosAPI {
 
     /**
      - PUT /api/v1/radios/radios/{id}/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -599,7 +599,7 @@ open class RadiosAPI {
 
     /**
      - POST /api/v1/radios/radios/validate/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:

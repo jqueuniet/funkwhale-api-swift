@@ -35,7 +35,7 @@ open class UsersAPI {
 
     /**
      - POST /api/v1/users/change-email/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -83,7 +83,7 @@ open class UsersAPI {
 
     /**
      - POST /api/v1/users/{username}/subsonic-token/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -134,7 +134,7 @@ open class UsersAPI {
     /**
      - DELETE /api/v1/users/me/
      - Return information about the current user or delete it
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -180,7 +180,7 @@ open class UsersAPI {
 
     /**
      - DELETE /api/v1/users/{username}/subsonic-token/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -230,7 +230,7 @@ open class UsersAPI {
     /**
      - GET /api/v1/users/me/
      - Return information about the current user or delete it
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -276,7 +276,7 @@ open class UsersAPI {
 
     /**
      - GET /api/v1/users/{username}/subsonic-token/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -327,7 +327,7 @@ open class UsersAPI {
 
     /**
      - PATCH /api/v1/users/{username}/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -379,7 +379,7 @@ open class UsersAPI {
     /**
      - POST /api/v1/users/settings/
      - Return information about the current user or delete it
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -427,7 +427,7 @@ open class UsersAPI {
 
     /**
      - PUT /api/v1/users/{username}/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:

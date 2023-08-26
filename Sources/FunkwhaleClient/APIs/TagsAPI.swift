@@ -35,7 +35,7 @@ open class TagsAPI {
 
     /**
      - GET /api/v1/tags/{name}/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -102,7 +102,7 @@ open class TagsAPI {
 
     /**
      - GET /api/v1/tags/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:

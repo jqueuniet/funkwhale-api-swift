@@ -37,7 +37,7 @@ open class ActivityAPI {
 
     /**
      - GET /api/v1/activity/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:

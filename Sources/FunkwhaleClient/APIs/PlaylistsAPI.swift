@@ -36,7 +36,7 @@ open class PlaylistsAPI {
 
     /**
      - POST /api/v1/playlists/{id}/add/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -87,7 +87,7 @@ open class PlaylistsAPI {
 
     /**
      - DELETE /api/v1/playlists/{id}/clear/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -137,7 +137,7 @@ open class PlaylistsAPI {
 
     /**
      - POST /api/v1/playlists/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -184,7 +184,7 @@ open class PlaylistsAPI {
 
     /**
      - DELETE /api/v1/playlists/{id}/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -234,7 +234,7 @@ open class PlaylistsAPI {
 
     /**
      - GET /api/v1/playlists/{id}/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -295,7 +295,7 @@ open class PlaylistsAPI {
 
     /**
      - GET /api/v1/playlists/{id}/tracks/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -379,7 +379,7 @@ open class PlaylistsAPI {
 
     /**
      - GET /api/v1/playlists/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -450,7 +450,7 @@ open class PlaylistsAPI {
 
     /**
      - PATCH /api/v1/playlists/{id}/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -501,7 +501,7 @@ open class PlaylistsAPI {
 
     /**
      - DELETE /api/v1/playlists/{id}/remove/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -552,7 +552,7 @@ open class PlaylistsAPI {
 
     /**
      - POST /api/v1/playlists/{id}/remove/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -604,7 +604,7 @@ open class PlaylistsAPI {
 
     /**
      - POST /api/v1/playlists/{id}/move/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -656,7 +656,7 @@ open class PlaylistsAPI {
 
     /**
      - PUT /api/v1/playlists/{id}/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:

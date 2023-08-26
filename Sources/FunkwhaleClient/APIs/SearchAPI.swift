@@ -34,7 +34,7 @@ open class SearchAPI {
 
     /**
      - GET /api/v1/search
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:

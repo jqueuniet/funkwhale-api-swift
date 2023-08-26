@@ -36,7 +36,7 @@ open class ManageAPI {
     /**
      - POST /api/v1/manage/accounts/action/
      - str(object='') -> str str(bytes_or_buffer[, encoding[, errors]]) -> str  Create a new string object from the given object. If encoding or errors is specified, then the object must expose a data buffer that will be decoded using the given encoding and error handler. Otherwise, returns the result of object.__str__() (if defined) or repr(object). encoding defaults to sys.getdefaultencoding(). errors defaults to 'strict'.
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -84,7 +84,7 @@ open class ManageAPI {
     /**
      - POST /api/v1/manage/library/albums/action/
      - str(object='') -> str str(bytes_or_buffer[, encoding[, errors]]) -> str  Create a new string object from the given object. If encoding or errors is specified, then the object must expose a data buffer that will be decoded using the given encoding and error handler. Otherwise, returns the result of object.__str__() (if defined) or repr(object). encoding defaults to sys.getdefaultencoding(). errors defaults to 'strict'.
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -132,7 +132,7 @@ open class ManageAPI {
     /**
      - POST /api/v1/manage/library/artists/action/
      - str(object='') -> str str(bytes_or_buffer[, encoding[, errors]]) -> str  Create a new string object from the given object. If encoding or errors is specified, then the object must expose a data buffer that will be decoded using the given encoding and error handler. Otherwise, returns the result of object.__str__() (if defined) or repr(object). encoding defaults to sys.getdefaultencoding(). errors defaults to 'strict'.
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -179,7 +179,7 @@ open class ManageAPI {
 
     /**
      - POST /api/v1/manage/federation/domains/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -227,7 +227,7 @@ open class ManageAPI {
     /**
      - POST /api/v1/manage/federation/domains/action/
      - str(object='') -> str str(bytes_or_buffer[, encoding[, errors]]) -> str  Create a new string object from the given object. If encoding or errors is specified, then the object must expose a data buffer that will be decoded using the given encoding and error handler. Otherwise, returns the result of object.__str__() (if defined) or repr(object). encoding defaults to sys.getdefaultencoding(). errors defaults to 'strict'.
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -274,7 +274,7 @@ open class ManageAPI {
 
     /**
      - POST /api/v1/manage/users/invitations/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -322,7 +322,7 @@ open class ManageAPI {
     /**
      - POST /api/v1/manage/users/invitations/action/
      - str(object='') -> str str(bytes_or_buffer[, encoding[, errors]]) -> str  Create a new string object from the given object. If encoding or errors is specified, then the object must expose a data buffer that will be decoded using the given encoding and error handler. Otherwise, returns the result of object.__str__() (if defined) or repr(object). encoding defaults to sys.getdefaultencoding(). errors defaults to 'strict'.
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -370,7 +370,7 @@ open class ManageAPI {
     /**
      - POST /api/v1/manage/library/libraries/action/
      - str(object='') -> str str(bytes_or_buffer[, encoding[, errors]]) -> str  Create a new string object from the given object. If encoding or errors is specified, then the object must expose a data buffer that will be decoded using the given encoding and error handler. Otherwise, returns the result of object.__str__() (if defined) or repr(object). encoding defaults to sys.getdefaultencoding(). errors defaults to 'strict'.
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -417,7 +417,7 @@ open class ManageAPI {
 
     /**
      - POST /api/v1/manage/tags/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -465,7 +465,7 @@ open class ManageAPI {
     /**
      - POST /api/v1/manage/tags/action/
      - str(object='') -> str str(bytes_or_buffer[, encoding[, errors]]) -> str  Create a new string object from the given object. If encoding or errors is specified, then the object must expose a data buffer that will be decoded using the given encoding and error handler. Otherwise, returns the result of object.__str__() (if defined) or repr(object). encoding defaults to sys.getdefaultencoding(). errors defaults to 'strict'.
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -513,7 +513,7 @@ open class ManageAPI {
     /**
      - POST /api/v1/manage/library/tracks/action/
      - str(object='') -> str str(bytes_or_buffer[, encoding[, errors]]) -> str  Create a new string object from the given object. If encoding or errors is specified, then the object must expose a data buffer that will be decoded using the given encoding and error handler. Otherwise, returns the result of object.__str__() (if defined) or repr(object). encoding defaults to sys.getdefaultencoding(). errors defaults to 'strict'.
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -561,7 +561,7 @@ open class ManageAPI {
     /**
      - POST /api/v1/manage/library/uploads/action/
      - str(object='') -> str str(bytes_or_buffer[, encoding[, errors]]) -> str  Create a new string object from the given object. If encoding or errors is specified, then the object must expose a data buffer that will be decoded using the given encoding and error handler. Otherwise, returns the result of object.__str__() (if defined) or repr(object). encoding defaults to sys.getdefaultencoding(). errors defaults to 'strict'.
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -608,7 +608,7 @@ open class ManageAPI {
 
     /**
      - DELETE /api/v1/manage/library/albums/{id}/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -658,7 +658,7 @@ open class ManageAPI {
 
     /**
      - DELETE /api/v1/manage/library/artists/{id}/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -708,7 +708,7 @@ open class ManageAPI {
 
     /**
      - DELETE /api/v1/manage/channels/{composite}/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -758,7 +758,7 @@ open class ManageAPI {
 
     /**
      - DELETE /api/v1/manage/library/libraries/{uuid}/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -808,7 +808,7 @@ open class ManageAPI {
 
     /**
      - DELETE /api/v1/manage/tags/{name}/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -858,7 +858,7 @@ open class ManageAPI {
 
     /**
      - DELETE /api/v1/manage/library/tracks/{id}/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -908,7 +908,7 @@ open class ManageAPI {
 
     /**
      - DELETE /api/v1/manage/library/uploads/{uuid}/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -958,7 +958,7 @@ open class ManageAPI {
 
     /**
      - GET /api/v1/manage/accounts/{id}/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -1008,7 +1008,7 @@ open class ManageAPI {
 
     /**
      - GET /api/v1/manage/accounts/{id}/stats/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -1077,7 +1077,7 @@ open class ManageAPI {
 
     /**
      - GET /api/v1/manage/accounts/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -1141,7 +1141,7 @@ open class ManageAPI {
 
     /**
      - GET /api/v1/manage/library/albums/{id}/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -1198,7 +1198,7 @@ open class ManageAPI {
 
     /**
      - GET /api/v1/manage/library/albums/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -1262,7 +1262,7 @@ open class ManageAPI {
 
     /**
      - GET /api/v1/manage/library/artists/{id}/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -1328,7 +1328,7 @@ open class ManageAPI {
 
     /**
      - GET /api/v1/manage/library/artists/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -1392,7 +1392,7 @@ open class ManageAPI {
 
     /**
      - GET /api/v1/manage/channels/{composite}/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -1442,7 +1442,7 @@ open class ManageAPI {
 
     /**
      - GET /api/v1/manage/channels/{composite}/stats/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -1495,7 +1495,7 @@ open class ManageAPI {
 
     /**
      - GET /api/v1/manage/channels/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -1551,7 +1551,7 @@ open class ManageAPI {
 
     /**
      - GET /api/v1/manage/federation/domains/{name}/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -1601,7 +1601,7 @@ open class ManageAPI {
 
     /**
      - GET /api/v1/manage/federation/domains/{name}/nodeinfo/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -1651,7 +1651,7 @@ open class ManageAPI {
 
     /**
      - GET /api/v1/manage/federation/domains/{name}/stats/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -1706,7 +1706,7 @@ open class ManageAPI {
 
     /**
      - GET /api/v1/manage/federation/domains/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -1766,7 +1766,7 @@ open class ManageAPI {
 
     /**
      - GET /api/v1/manage/users/invitations/{id}/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -1820,7 +1820,7 @@ open class ManageAPI {
 
     /**
      - GET /api/v1/manage/users/invitations/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -1906,7 +1906,7 @@ open class ManageAPI {
 
     /**
      - GET /api/v1/manage/library/libraries/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -1970,7 +1970,7 @@ open class ManageAPI {
 
     /**
      - GET /api/v1/manage/library/libraries/{uuid}/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -2020,7 +2020,7 @@ open class ManageAPI {
 
     /**
      - GET /api/v1/manage/library/albums/{id}/stats/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -2070,7 +2070,7 @@ open class ManageAPI {
 
     /**
      - GET /api/v1/manage/library/artists/{id}/stats/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -2120,7 +2120,7 @@ open class ManageAPI {
 
     /**
      - GET /api/v1/manage/library/libraries/{uuid}/stats/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -2170,7 +2170,7 @@ open class ManageAPI {
 
     /**
      - GET /api/v1/manage/tags/{name}/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -2223,7 +2223,7 @@ open class ManageAPI {
 
     /**
      - GET /api/v1/manage/tags/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -2279,7 +2279,7 @@ open class ManageAPI {
 
     /**
      - GET /api/v1/manage/library/tracks/{id}/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -2329,7 +2329,7 @@ open class ManageAPI {
 
     /**
      - GET /api/v1/manage/library/tracks/{id}/stats/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -2388,7 +2388,7 @@ open class ManageAPI {
 
     /**
      - GET /api/v1/manage/library/tracks/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -2456,7 +2456,7 @@ open class ManageAPI {
 
     /**
      - GET /api/v1/manage/library/uploads/{uuid}/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -2544,7 +2544,7 @@ open class ManageAPI {
 
     /**
      - GET /api/v1/manage/library/uploads/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -2612,7 +2612,7 @@ open class ManageAPI {
 
     /**
      - GET /api/v1/manage/users/users/{id}/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -2682,7 +2682,7 @@ open class ManageAPI {
 
     /**
      - GET /api/v1/manage/users/users/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -2753,7 +2753,7 @@ open class ManageAPI {
 
     /**
      - PATCH /api/v1/manage/federation/domains/{name}/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -2805,7 +2805,7 @@ open class ManageAPI {
 
     /**
      - PATCH /api/v1/manage/users/invitations/{id}/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -2857,7 +2857,7 @@ open class ManageAPI {
 
     /**
      - PATCH /api/v1/manage/library/libraries/{uuid}/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -2909,7 +2909,7 @@ open class ManageAPI {
 
     /**
      - PATCH /api/v1/manage/users/users/{id}/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -2961,7 +2961,7 @@ open class ManageAPI {
 
     /**
      - PUT /api/v1/manage/federation/domains/{name}/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -3013,7 +3013,7 @@ open class ManageAPI {
 
     /**
      - PUT /api/v1/manage/users/invitations/{id}/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -3065,7 +3065,7 @@ open class ManageAPI {
 
     /**
      - PUT /api/v1/manage/library/libraries/{uuid}/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -3117,7 +3117,7 @@ open class ManageAPI {
 
     /**
      - PUT /api/v1/manage/users/users/{id}/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -3168,7 +3168,7 @@ open class ManageAPI {
 
     /**
      - POST /api/v1/manage/moderation/instance-policies/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -3215,7 +3215,7 @@ open class ManageAPI {
 
     /**
      - POST /api/v1/manage/moderation/notes/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -3262,7 +3262,7 @@ open class ManageAPI {
 
     /**
      - DELETE /api/v1/manage/moderation/instance-policies/{id}/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -3312,7 +3312,7 @@ open class ManageAPI {
 
     /**
      - DELETE /api/v1/manage/moderation/notes/{uuid}/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -3372,7 +3372,7 @@ open class ManageAPI {
 
     /**
      - GET /api/v1/manage/moderation/instance-policies/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -3442,7 +3442,7 @@ open class ManageAPI {
 
     /**
      - GET /api/v1/manage/moderation/instance-policies/{id}/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -3492,7 +3492,7 @@ open class ManageAPI {
 
     /**
      - GET /api/v1/manage/moderation/notes/{uuid}/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -3545,7 +3545,7 @@ open class ManageAPI {
 
     /**
      - GET /api/v1/manage/moderation/notes/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -3601,7 +3601,7 @@ open class ManageAPI {
 
     /**
      - GET /api/v1/manage/moderation/reports/{uuid}/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -3668,7 +3668,7 @@ open class ManageAPI {
 
     /**
      - GET /api/v1/manage/moderation/reports/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -3730,7 +3730,7 @@ open class ManageAPI {
 
     /**
      - GET /api/v1/manage/moderation/requests/{uuid}/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -3801,7 +3801,7 @@ open class ManageAPI {
 
     /**
      - GET /api/v1/manage/moderation/requests/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -3862,7 +3862,7 @@ open class ManageAPI {
 
     /**
      - PATCH /api/v1/manage/moderation/instance-policies/{id}/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -3914,7 +3914,7 @@ open class ManageAPI {
 
     /**
      - PATCH /api/v1/manage/moderation/reports/{uuid}/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -3966,7 +3966,7 @@ open class ManageAPI {
 
     /**
      - PATCH /api/v1/manage/moderation/requests/{uuid}/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -4018,7 +4018,7 @@ open class ManageAPI {
 
     /**
      - PUT /api/v1/manage/moderation/instance-policies/{id}/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -4070,7 +4070,7 @@ open class ManageAPI {
 
     /**
      - PUT /api/v1/manage/moderation/reports/{uuid}/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -4122,7 +4122,7 @@ open class ManageAPI {
 
     /**
      - PUT /api/v1/manage/moderation/requests/{uuid}/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:

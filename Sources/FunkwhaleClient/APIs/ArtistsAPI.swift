@@ -36,7 +36,7 @@ open class ArtistsAPI {
 
     /**
      - POST /api/v1/artists/{id}/fetches/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -88,7 +88,7 @@ open class ArtistsAPI {
 
     /**
      - POST /api/v1/artists/{id}/mutations/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -139,7 +139,7 @@ open class ArtistsAPI {
 
     /**
      - GET /api/v1/artists/{id}/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -225,7 +225,7 @@ open class ArtistsAPI {
 
     /**
      - GET /api/v1/artists/{id}/fetches/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -349,7 +349,7 @@ open class ArtistsAPI {
 
     /**
      - GET /api/v1/artists/{id}/libraries/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -473,7 +473,7 @@ open class ArtistsAPI {
 
     /**
      - GET /api/v1/artists/{id}/mutations/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -596,7 +596,7 @@ open class ArtistsAPI {
 
     /**
      - GET /api/v1/artists/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:

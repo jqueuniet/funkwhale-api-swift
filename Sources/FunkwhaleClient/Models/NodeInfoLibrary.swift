@@ -19,12 +19,12 @@ public struct NodeInfoLibrary: Codable, JSONEncodable, Hashable {
 
     public var federationEnabled: Bool
     public var anonymousCanListen: Bool
-    public var tracks: NodeInfoLibraryTracks?
-    public var artists: NodeInfoLibraryTracks?
-    public var albums: NodeInfoLibraryTracks?
-    public var music: NodeInfoLibraryMusic?
+    public var tracks: TotalCount?
+    public var artists: TotalCount?
+    public var albums: TotalCount?
+    public var music: TotalHours?
 
-    public init(federationEnabled: Bool, anonymousCanListen: Bool, tracks: NodeInfoLibraryTracks? = nil, artists: NodeInfoLibraryTracks? = nil, albums: NodeInfoLibraryTracks? = nil, music: NodeInfoLibraryMusic? = nil) {
+    public init(federationEnabled: Bool, anonymousCanListen: Bool, tracks: TotalCount? = nil, artists: TotalCount? = nil, albums: TotalCount? = nil, music: TotalHours? = nil) {
         self.federationEnabled = federationEnabled
         self.anonymousCanListen = anonymousCanListen
         self.tracks = tracks

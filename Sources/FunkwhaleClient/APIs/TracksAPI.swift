@@ -37,7 +37,7 @@ open class TracksAPI {
     /**
      - POST /api/v1/tracks/{id}/fetches/
      - A simple ViewSet for viewing and editing accounts.
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -90,7 +90,7 @@ open class TracksAPI {
     /**
      - POST /api/v1/tracks/{id}/mutations/
      - A simple ViewSet for viewing and editing accounts.
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -142,7 +142,7 @@ open class TracksAPI {
     /**
      - DELETE /api/v1/tracks/{id}/
      - A simple ViewSet for viewing and editing accounts.
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -193,7 +193,7 @@ open class TracksAPI {
     /**
      - GET /api/v1/tracks/{id}/
      - A simple ViewSet for viewing and editing accounts.
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -292,7 +292,7 @@ open class TracksAPI {
     /**
      - GET /api/v1/tracks/{id}/fetches/
      - A simple ViewSet for viewing and editing accounts.
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -433,7 +433,7 @@ open class TracksAPI {
     /**
      - GET /api/v1/tracks/{id}/libraries/
      - A simple ViewSet for viewing and editing accounts.
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -574,7 +574,7 @@ open class TracksAPI {
     /**
      - GET /api/v1/tracks/{id}/mutations/
      - A simple ViewSet for viewing and editing accounts.
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -715,7 +715,7 @@ open class TracksAPI {
     /**
      - GET /api/v1/tracks/
      - A simple ViewSet for viewing and editing accounts.
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:

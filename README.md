@@ -449,10 +449,7 @@ Class | Method | HTTP request | Description
  - [NestedLibraryFollow](docs/NestedLibraryFollow.md)
  - [NestedLibraryFollowRequest](docs/NestedLibraryFollowRequest.md)
  - [NodeInfo20](docs/NodeInfo20.md)
- - [NodeInfo20Services](docs/NodeInfo20Services.md)
  - [NodeInfoLibrary](docs/NodeInfoLibrary.md)
- - [NodeInfoLibraryMusic](docs/NodeInfoLibraryMusic.md)
- - [NodeInfoLibraryTracks](docs/NodeInfoLibraryTracks.md)
  - [Oembed](docs/Oembed.md)
  - [PaginatedAPIMutationList](docs/PaginatedAPIMutationList.md)
  - [PaginatedAlbumList](docs/PaginatedAlbumList.md)
@@ -582,7 +579,7 @@ Authentication schemes defined for the API:
 <a id="ApplicationToken"></a>
 ### ApplicationToken
 
-- **Type**: HTTP basic authentication
+- **Type**: HTTP Bearer Token authentication
 
 <a id="oauth2"></a>
 ### oauth2

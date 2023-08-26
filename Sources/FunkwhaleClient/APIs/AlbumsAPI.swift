@@ -35,7 +35,7 @@ open class AlbumsAPI {
 
     /**
      - POST /api/v1/albums/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -83,7 +83,7 @@ open class AlbumsAPI {
 
     /**
      - POST /api/v1/albums/{id}/fetches/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -135,7 +135,7 @@ open class AlbumsAPI {
 
     /**
      - POST /api/v1/albums/{id}/mutations/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -186,7 +186,7 @@ open class AlbumsAPI {
 
     /**
      - DELETE /api/v1/albums/{id}/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -236,7 +236,7 @@ open class AlbumsAPI {
 
     /**
      - GET /api/v1/albums/{id}/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -319,7 +319,7 @@ open class AlbumsAPI {
 
     /**
      - GET /api/v1/albums/{id}/fetches/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -434,7 +434,7 @@ open class AlbumsAPI {
 
     /**
      - GET /api/v1/albums/{id}/libraries/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -549,7 +549,7 @@ open class AlbumsAPI {
 
     /**
      - GET /api/v1/albums/{id}/mutations/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -663,7 +663,7 @@ open class AlbumsAPI {
 
     /**
      - GET /api/v1/albums/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:

@@ -20,12 +20,12 @@ public struct NodeInfo20: Codable, JSONEncodable, Hashable {
     public var version: String
     public var software: Software
     public var protocols: [AnyCodable]
-    public var services: NodeInfo20Services?
+    public var services: Services?
     public var openRegistrations: Bool
     public var usage: Usage
     public var metadata: Metadata
 
-    public init(version: String, software: Software, protocols: [AnyCodable], services: NodeInfo20Services? = nil, openRegistrations: Bool, usage: Usage, metadata: Metadata) {
+    public init(version: String, software: Software, protocols: [AnyCodable], services: Services? = nil, openRegistrations: Bool, usage: Usage, metadata: Metadata) {
         self.version = version
         self.software = software
         self.protocols = protocols

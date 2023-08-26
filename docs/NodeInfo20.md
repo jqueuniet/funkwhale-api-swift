@@ -6,7 +6,7 @@ Name | Type | Description | Notes
 **version** | **String** |  | [readonly] 
 **software** | [**Software**](Software.md) |  | 
 **protocols** | **[AnyCodable]** |  | [readonly] 
-**services** | [**NodeInfo20Services**](NodeInfo20Services.md) |  | [optional] 
+**services** | [**Services**](Services.md) |  | [optional] 
 **openRegistrations** | **Bool** |  | [readonly] 
 **usage** | [**Usage**](Usage.md) |  | [readonly] 
 **metadata** | [**Metadata**](Metadata.md) |  | [readonly] 

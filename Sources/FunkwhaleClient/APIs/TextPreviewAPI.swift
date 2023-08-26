@@ -35,7 +35,7 @@ open class TextPreviewAPI {
 
     /**
      - POST /api/v1/text-preview/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:

@@ -35,7 +35,7 @@ open class ModerationAPI {
 
     /**
      - POST /api/v1/moderation/content-filters/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -82,7 +82,7 @@ open class ModerationAPI {
 
     /**
      - POST /api/v1/moderation/reports/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -129,7 +129,7 @@ open class ModerationAPI {
 
     /**
      - DELETE /api/v1/moderation/content-filters/{uuid}/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -179,7 +179,7 @@ open class ModerationAPI {
 
     /**
      - GET /api/v1/moderation/content-filters/{uuid}/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -231,7 +231,7 @@ open class ModerationAPI {
 
     /**
      - GET /api/v1/moderation/content-filters/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:

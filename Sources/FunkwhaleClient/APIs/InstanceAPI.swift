@@ -36,7 +36,7 @@ open class InstanceAPI {
     /**
      - POST /api/v1/instance/admin/settings/bulk/
      - Update multiple preferences at once  this is a long method because we ensure everything is valid before actually persisting the changes
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -84,7 +84,7 @@ open class InstanceAPI {
     /**
      - GET /api/v1/instance/admin/settings/{id}/
      - - list preferences - detail given preference - batch update preferences - update a single preference
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -135,7 +135,7 @@ open class InstanceAPI {
     /**
      - GET /api/v1/instance/admin/settings/
      - - list preferences - detail given preference - batch update preferences - update a single preference
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -304,7 +304,7 @@ open class InstanceAPI {
     /**
      - PATCH /api/v1/instance/admin/settings/{id}/
      - - list preferences - detail given preference - batch update preferences - update a single preference
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -357,7 +357,7 @@ open class InstanceAPI {
     /**
      - PUT /api/v1/instance/admin/settings/{id}/
      - - list preferences - detail given preference - batch update preferences - update a single preference
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:

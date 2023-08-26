@@ -34,7 +34,7 @@ open class PluginsAPI {
 
     /**
      - POST /api/v1/plugins/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -80,7 +80,7 @@ open class PluginsAPI {
 
     /**
      - POST /api/v1/plugins/{id}/scan/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -130,7 +130,7 @@ open class PluginsAPI {
 
     /**
      - POST /api/v1/plugins/{id}/disable/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -180,7 +180,7 @@ open class PluginsAPI {
 
     /**
      - POST /api/v1/plugins/{id}/enable/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -230,7 +230,7 @@ open class PluginsAPI {
 
     /**
      - GET /api/v1/plugins/{id}/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -282,7 +282,7 @@ open class PluginsAPI {
 
     /**
      - GET /api/v1/plugins/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:

@@ -35,7 +35,7 @@ open class OauthAPI {
 
     /**
      - POST /api/v1/oauth/apps/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -82,7 +82,7 @@ open class OauthAPI {
 
     /**
      - DELETE /api/v1/oauth/apps/{client_id}/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -133,7 +133,7 @@ open class OauthAPI {
     /**
      - DELETE /api/v1/oauth/grants/{client_id}/
      - This is a viewset that list applications that have access to the request user account, to allow revoking tokens easily.
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -183,7 +183,7 @@ open class OauthAPI {
 
     /**
      - GET /api/v1/oauth/apps/{client_id}/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -235,7 +235,7 @@ open class OauthAPI {
 
     /**
      - GET /api/v1/oauth/apps/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -290,7 +290,7 @@ open class OauthAPI {
     /**
      - GET /api/v1/oauth/grants/{client_id}/
      - This is a viewset that list applications that have access to the request user account, to allow revoking tokens easily.
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -341,7 +341,7 @@ open class OauthAPI {
     /**
      - GET /api/v1/oauth/grants/
      - This is a viewset that list applications that have access to the request user account, to allow revoking tokens easily.
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -392,7 +392,7 @@ open class OauthAPI {
 
     /**
      - PATCH /api/v1/oauth/apps/{client_id}/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -444,7 +444,7 @@ open class OauthAPI {
 
     /**
      - POST /api/v1/oauth/apps/{client_id}/refresh-token/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -496,7 +496,7 @@ open class OauthAPI {
 
     /**
      - PUT /api/v1/oauth/apps/{client_id}/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:

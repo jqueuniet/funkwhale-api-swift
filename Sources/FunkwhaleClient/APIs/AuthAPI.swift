@@ -36,7 +36,7 @@ open class AuthAPI {
     /**
      - POST /api/v1/auth/password/change/
      - Calls Django Auth SetPasswordForm save method.  Accepts the following POST parameters: new_password1, new_password2 Returns the success/fail message.
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -84,7 +84,7 @@ open class AuthAPI {
     /**
      - POST /api/v1/auth/registration/change-password/
      - Calls Django Auth SetPasswordForm save method.  Accepts the following POST parameters: new_password1, new_password2 Returns the success/fail message.
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -132,7 +132,7 @@ open class AuthAPI {
     /**
      - POST /api/v1/auth/password/reset/confirm/
      - Password reset e-mail link is confirmed, therefore this resets the user's password.  Accepts the following POST parameters: token, uid,     new_password1, new_password2 Returns the success/fail message.
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -179,7 +179,7 @@ open class AuthAPI {
     /**
      - GET /api/v1/auth/user/
      - Reads and updates UserModel fields Accepts GET, PUT, PATCH methods.  Default accepted fields: username, first_name, last_name Default display fields: pk, username, email, first_name, last_name Read-only fields: pk, email  Returns UserModel fields.
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -226,7 +226,7 @@ open class AuthAPI {
     /**
      - PATCH /api/v1/auth/user/
      - Reads and updates UserModel fields Accepts GET, PUT, PATCH methods.  Default accepted fields: username, first_name, last_name Default display fields: pk, username, email, first_name, last_name Read-only fields: pk, email  Returns UserModel fields.
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -273,7 +273,7 @@ open class AuthAPI {
 
     /**
      - POST /api/v1/auth/registration/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -321,7 +321,7 @@ open class AuthAPI {
     /**
      - POST /api/v1/auth/password/reset/
      - Calls Django Auth PasswordResetForm save method.  Accepts the following POST parameters: email Returns the success/fail message.
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -369,7 +369,7 @@ open class AuthAPI {
     /**
      - PUT /api/v1/auth/user/
      - Reads and updates UserModel fields Accepts GET, PUT, PATCH methods.  Default accepted fields: username, first_name, last_name Default display fields: pk, username, email, first_name, last_name Read-only fields: pk, email  Returns UserModel fields.
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -416,7 +416,7 @@ open class AuthAPI {
 
     /**
      - POST /api/v1/auth/registration/verify-email/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:

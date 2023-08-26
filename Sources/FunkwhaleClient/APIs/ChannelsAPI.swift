@@ -35,7 +35,7 @@ open class ChannelsAPI {
 
     /**
      - POST /api/v1/channels/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -82,7 +82,7 @@ open class ChannelsAPI {
 
     /**
      - DELETE /api/v1/channels/{composite}/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -132,7 +132,7 @@ open class ChannelsAPI {
 
     /**
      - GET /api/v1/channels/{composite}/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -181,7 +181,7 @@ open class ChannelsAPI {
 
     /**
      - GET /api/v1/channels/metadata-choices/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -227,7 +227,7 @@ open class ChannelsAPI {
 
     /**
      - GET /api/v1/channels/{composite}/rss/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -297,7 +297,7 @@ open class ChannelsAPI {
 
     /**
      - GET /api/v1/channels/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -364,7 +364,7 @@ open class ChannelsAPI {
 
     /**
      - PATCH /api/v1/channels/{composite}/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -416,7 +416,7 @@ open class ChannelsAPI {
 
     /**
      - POST /api/v1/channels/{composite}/subscribe/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -467,7 +467,7 @@ open class ChannelsAPI {
 
     /**
      - POST /api/v1/channels/rss-subscribe/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -514,7 +514,7 @@ open class ChannelsAPI {
 
     /**
      - DELETE /api/v1/channels/{composite}/unsubscribe/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -565,7 +565,7 @@ open class ChannelsAPI {
 
     /**
      - POST /api/v1/channels/{composite}/unsubscribe/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -617,7 +617,7 @@ open class ChannelsAPI {
 
     /**
      - PUT /api/v1/channels/{composite}/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:

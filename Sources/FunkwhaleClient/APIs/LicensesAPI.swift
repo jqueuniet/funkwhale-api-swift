@@ -35,7 +35,7 @@ open class LicensesAPI {
 
     /**
      - GET /api/v1/licenses/{code}/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
@@ -87,7 +87,7 @@ open class LicensesAPI {
 
     /**
      - GET /api/v1/licenses/
-     - BASIC:
+     - Bearer Token:
        - type: http
        - name: ApplicationToken
      - OAuth:
