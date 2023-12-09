@@ -261,12 +261,12 @@ open class ChannelsAPI {
      * enum for parameter ordering
      */
     public enum Ordering_getChannels: String, CaseIterable {
-        case creationDateDesc = "-creation_date"
-        case modificationDateDesc = "-modification_date"
-        case randomDesc = "-random"
-        case creationDate = "creation_date"
-        case modificationDate = "modification_date"
-        case random = "random"
+        case creationDate = "-creation_date"
+        case modificationDate = "-modification_date"
+        case random = "-random"
+        case creationDate2 = "creation_date"
+        case modificationDate2 = "modification_date"
+        case random2 = "random"
     }
 
     /**

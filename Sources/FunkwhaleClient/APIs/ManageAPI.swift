@@ -1862,12 +1862,12 @@ open class ManageAPI {
      * enum for parameter ordering
      */
     public enum Ordering_adminGetLibraries: String, CaseIterable {
-        case creationDateDesc = "-creation_date"
-        case followersCountDesc = "-followers_count"
-        case uploadsCountDesc = "-uploads_count"
-        case creationDate = "creation_date"
-        case followersCount = "followers_count"
-        case uploadsCount = "uploads_count"
+        case creationDate = "-creation_date"
+        case followersCount = "-followers_count"
+        case uploadsCount = "-uploads_count"
+        case creationDate2 = "creation_date"
+        case followersCount2 = "followers_count"
+        case uploadsCount2 = "uploads_count"
     }
 
     /**
@@ -2501,18 +2501,18 @@ open class ManageAPI {
      * enum for parameter ordering
      */
     public enum Ordering_adminGetUploads: String, CaseIterable {
-        case accessedDateDesc = "-accessed_date"
-        case bitrateDesc = "-bitrate"
-        case creationDateDesc = "-creation_date"
-        case durationDesc = "-duration"
-        case modificationDateDesc = "-modification_date"
-        case sizeDesc = "-size"
-        case accessedDate = "accessed_date"
-        case bitrate = "bitrate"
-        case creationDate = "creation_date"
-        case duration = "duration"
-        case modificationDate = "modification_date"
-        case size = "size"
+        case accessedDate = "-accessed_date"
+        case bitrate = "-bitrate"
+        case creationDate = "-creation_date"
+        case duration = "-duration"
+        case modificationDate = "-modification_date"
+        case size = "-size"
+        case accessedDate2 = "accessed_date"
+        case bitrate2 = "bitrate"
+        case creationDate2 = "creation_date"
+        case duration2 = "duration"
+        case modificationDate2 = "modification_date"
+        case size2 = "size"
     }
 
     /**

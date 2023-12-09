@@ -173,18 +173,18 @@ open class ArtistsAPI {
      * enum for parameter ordering
      */
     public enum Ordering_getArtistFetches: String, CaseIterable {
-        case creationDateDesc = "-creation_date"
-        case idDesc = "-id"
-        case modificationDateDesc = "-modification_date"
-        case nameDesc = "-name"
-        case randomDesc = "-random"
-        case relatedDesc = "-related"
-        case creationDate = "creation_date"
-        case id = "id"
-        case modificationDate = "modification_date"
-        case name = "name"
-        case random = "random"
-        case related = "related"
+        case creationDate = "-creation_date"
+        case id = "-id"
+        case modificationDate = "-modification_date"
+        case name = "-name"
+        case random = "-random"
+        case related = "-related"
+        case creationDate2 = "creation_date"
+        case id2 = "id"
+        case modificationDate2 = "modification_date"
+        case name2 = "name"
+        case random2 = "random"
+        case related2 = "related"
     }
 
     /**
@@ -297,18 +297,18 @@ open class ArtistsAPI {
      * enum for parameter ordering
      */
     public enum Ordering_getArtistLibraries: String, CaseIterable {
-        case creationDateDesc = "-creation_date"
-        case idDesc = "-id"
-        case modificationDateDesc = "-modification_date"
-        case nameDesc = "-name"
-        case randomDesc = "-random"
-        case relatedDesc = "-related"
-        case creationDate = "creation_date"
-        case id = "id"
-        case modificationDate = "modification_date"
-        case name = "name"
-        case random = "random"
-        case related = "related"
+        case creationDate = "-creation_date"
+        case id = "-id"
+        case modificationDate = "-modification_date"
+        case name = "-name"
+        case random = "-random"
+        case related = "-related"
+        case creationDate2 = "creation_date"
+        case id2 = "id"
+        case modificationDate2 = "modification_date"
+        case name2 = "name"
+        case random2 = "random"
+        case related2 = "related"
     }
 
     /**
@@ -421,18 +421,18 @@ open class ArtistsAPI {
      * enum for parameter ordering
      */
     public enum Ordering_getArtistMutations: String, CaseIterable {
-        case creationDateDesc = "-creation_date"
-        case idDesc = "-id"
-        case modificationDateDesc = "-modification_date"
-        case namDesce = "-name"
-        case randomDesc = "-random"
-        case relatedDesc = "-related"
-        case creationDate = "creation_date"
-        case id = "id"
-        case modificationDate = "modification_date"
-        case name = "name"
-        case random = "random"
-        case related = "related"
+        case creationDate = "-creation_date"
+        case id = "-id"
+        case modificationDate = "-modification_date"
+        case name = "-name"
+        case random = "-random"
+        case related = "-related"
+        case creationDate2 = "creation_date"
+        case id2 = "id"
+        case modificationDate2 = "modification_date"
+        case name2 = "name"
+        case random2 = "random"
+        case related2 = "related"
     }
 
     /**
@@ -545,18 +545,18 @@ open class ArtistsAPI {
      * enum for parameter ordering
      */
     public enum Ordering_getArtists: String, CaseIterable {
-        case creationDateDesc = "-creation_date"
-        case idDesc = "-id"
-        case modificationDateDesc = "-modification_date"
-        case nameDesc = "-name"
-        case randomDesc = "-random"
-        case relatedDesc = "-related"
-        case creationDate = "creation_date"
-        case id = "id"
-        case modificationDate = "modification_date"
-        case name = "name"
-        case random = "random"
-        case related = "related"
+        case creationDate = "-creation_date"
+        case id = "-id"
+        case modificationDate = "-modification_date"
+        case name = "-name"
+        case random = "-random"
+        case related = "-related"
+        case creationDate2 = "creation_date"
+        case id2 = "id"
+        case modificationDate2 = "modification_date"
+        case name2 = "name"
+        case random2 = "random"
+        case related2 = "related"
     }
 
     /**
