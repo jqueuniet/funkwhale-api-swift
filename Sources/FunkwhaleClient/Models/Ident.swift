@@ -18,9 +18,9 @@ extension FunkwhaleClientAPI {
 public struct Ident: Codable, JSONEncodable, Hashable {
 
     public var type: String
-    public var id: Int
+    public var id: String
 
-    public init(type: String, id: Int) {
+    public init(type: String, id: String) {
         self.type = type
         self.id = id
     }

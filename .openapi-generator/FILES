@@ -161,7 +161,7 @@ Sources/FunkwhaleClient/Models/ManageUserRequestStatusEnum.swift
 Sources/FunkwhaleClient/Models/ManageUserRequestTypeEnum.swift
 Sources/FunkwhaleClient/Models/ManageUserSimple.swift
 Sources/FunkwhaleClient/Models/ManageUserSimpleRequest.swift
-Sources/FunkwhaleClient/Models/Metadata.swift
+Sources/FunkwhaleClient/Models/Metadata20.swift
 Sources/FunkwhaleClient/Models/MetadataUsage.swift
 Sources/FunkwhaleClient/Models/MetadataUsageFavorite.swift
 Sources/FunkwhaleClient/Models/ModerationTarget.swift
@@ -427,7 +427,7 @@ docs/ManageUserRequestStatusEnum.md
 docs/ManageUserRequestTypeEnum.md
 docs/ManageUserSimple.md
 docs/ManageUserSimpleRequest.md
-docs/Metadata.md
+docs/Metadata20.md
 docs/MetadataUsage.md
 docs/MetadataUsageFavorite.md
 docs/ModerationAPI.md

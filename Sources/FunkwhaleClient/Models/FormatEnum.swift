@@ -15,6 +15,7 @@ public typealias FormatEnum = FunkwhaleClientAPI.FormatEnum
 
 extension FunkwhaleClientAPI {
 
+/** * &#x60;json&#x60; - json */
 public enum FormatEnum: String, Codable, CaseIterable {
     case json = "json"
 }

@@ -81,7 +81,7 @@ open class TagsAPI {
 
      - parameter name: (query)  (optional)
      - parameter nameStartswith: (query)  (optional)
-     - parameter ordering: (query) Ordering (optional)
+     - parameter ordering: (query) Ordering  * &#x60;name&#x60; - Name * &#x60;-name&#x60; - Name (descending) * &#x60;creation_date&#x60; - Creation date * &#x60;-creation_date&#x60; - Creation date (descending) * &#x60;length&#x60; - Length * &#x60;-length&#x60; - Length (descending) (optional)
      - parameter page: (query) A page number within the paginated result set. (optional)
      - parameter pageSize: (query) Number of results to return per page. (optional)
      - parameter q: (query)  (optional)
@@ -110,7 +110,7 @@ open class TagsAPI {
        - name: oauth2
      - parameter name: (query)  (optional)
      - parameter nameStartswith: (query)  (optional)
-     - parameter ordering: (query) Ordering (optional)
+     - parameter ordering: (query) Ordering  * &#x60;name&#x60; - Name * &#x60;-name&#x60; - Name (descending) * &#x60;creation_date&#x60; - Creation date * &#x60;-creation_date&#x60; - Creation date (descending) * &#x60;length&#x60; - Length * &#x60;-length&#x60; - Length (descending) (optional)
      - parameter page: (query) A page number within the paginated result set. (optional)
      - parameter pageSize: (query) Number of results to return per page. (optional)
      - parameter q: (query)  (optional)

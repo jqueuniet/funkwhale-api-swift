@@ -1059,7 +1059,7 @@ open class ManageAPI {
      - parameter page: (query) A page number within the paginated result set. (optional)
      - parameter pageSize: (query) Number of results to return per page. (optional)
      - parameter q: (query)  (optional)
-     - parameter type: (query)  (optional)
+     - parameter type: (query) * &#x60;Person&#x60; - Person * &#x60;Tombstone&#x60; - Tombstone * &#x60;Application&#x60; - Application * &#x60;Group&#x60; - Group * &#x60;Organization&#x60; - Organization * &#x60;Service&#x60; - Service (optional)
      - parameter apiResponseQueue: The queue on which api response is dispatched.
      - parameter completion: completion handler to receive the data and the error objects
      */
@@ -1090,7 +1090,7 @@ open class ManageAPI {
      - parameter page: (query) A page number within the paginated result set. (optional)
      - parameter pageSize: (query) Number of results to return per page. (optional)
      - parameter q: (query)  (optional)
-     - parameter type: (query)  (optional)
+     - parameter type: (query) * &#x60;Person&#x60; - Person * &#x60;Tombstone&#x60; - Tombstone * &#x60;Application&#x60; - Application * &#x60;Group&#x60; - Group * &#x60;Organization&#x60; - Organization * &#x60;Service&#x60; - Service (optional)
      - returns: RequestBuilder<PaginatedManageActorList> 
      */
     open class func adminGetAccountsWithRequestBuilder(domain: String? = nil, local: Bool? = nil, manuallyApprovesFollowers: Bool? = nil, ordering: String? = nil, page: Int? = nil, pageSize: Int? = nil, q: String? = nil, type: ModelType_adminGetAccounts? = nil) -> RequestBuilder<PaginatedManageActorList> {
@@ -1303,7 +1303,7 @@ open class ManageAPI {
 
     /**
 
-     - parameter contentCategory: (query)  (optional)
+     - parameter contentCategory: (query) * &#x60;music&#x60; - music * &#x60;podcast&#x60; - podcast * &#x60;other&#x60; - other (optional)
      - parameter fid: (query)  (optional)
      - parameter mbid: (query)  (optional)
      - parameter name: (query)  (optional)
@@ -1334,7 +1334,7 @@ open class ManageAPI {
      - OAuth:
        - type: oauth2
        - name: oauth2
-     - parameter contentCategory: (query)  (optional)
+     - parameter contentCategory: (query) * &#x60;music&#x60; - music * &#x60;podcast&#x60; - podcast * &#x60;other&#x60; - other (optional)
      - parameter fid: (query)  (optional)
      - parameter mbid: (query)  (optional)
      - parameter name: (query)  (optional)
@@ -1884,10 +1884,10 @@ open class ManageAPI {
      - parameter domain: (query)  (optional)
      - parameter fid: (query)  (optional)
      - parameter name: (query)  (optional)
-     - parameter ordering: (query) Ordering (optional)
+     - parameter ordering: (query) Ordering  * &#x60;creation_date&#x60; - Creation date * &#x60;-creation_date&#x60; - Creation date (descending) * &#x60;uploads_count&#x60; - Uploads count * &#x60;-uploads_count&#x60; - Uploads count (descending) * &#x60;followers_count&#x60; - Followers count * &#x60;-followers_count&#x60; - Followers count (descending) (optional)
      - parameter page: (query) A page number within the paginated result set. (optional)
      - parameter pageSize: (query) Number of results to return per page. (optional)
-     - parameter privacyLevel: (query)  (optional)
+     - parameter privacyLevel: (query) * &#x60;me&#x60; - Only me * &#x60;instance&#x60; - Everyone on my instance, and my followers * &#x60;everyone&#x60; - Everyone, including people on other instances (optional)
      - parameter q: (query)  (optional)
      - parameter apiResponseQueue: The queue on which api response is dispatched.
      - parameter completion: completion handler to receive the data and the error objects
@@ -1915,10 +1915,10 @@ open class ManageAPI {
      - parameter domain: (query)  (optional)
      - parameter fid: (query)  (optional)
      - parameter name: (query)  (optional)
-     - parameter ordering: (query) Ordering (optional)
+     - parameter ordering: (query) Ordering  * &#x60;creation_date&#x60; - Creation date * &#x60;-creation_date&#x60; - Creation date (descending) * &#x60;uploads_count&#x60; - Uploads count * &#x60;-uploads_count&#x60; - Uploads count (descending) * &#x60;followers_count&#x60; - Followers count * &#x60;-followers_count&#x60; - Followers count (descending) (optional)
      - parameter page: (query) A page number within the paginated result set. (optional)
      - parameter pageSize: (query) Number of results to return per page. (optional)
-     - parameter privacyLevel: (query)  (optional)
+     - parameter privacyLevel: (query) * &#x60;me&#x60; - Only me * &#x60;instance&#x60; - Everyone on my instance, and my followers * &#x60;everyone&#x60; - Everyone, including people on other instances (optional)
      - parameter q: (query)  (optional)
      - returns: RequestBuilder<PaginatedManageLibraryList> 
      */
@@ -2520,9 +2520,9 @@ open class ManageAPI {
      - parameter domain: (query)  (optional)
      - parameter fid: (query)  (optional)
      - parameter importReference: (query)  (optional)
-     - parameter importStatus: (query)  (optional)
+     - parameter importStatus: (query) * &#x60;draft&#x60; - Draft * &#x60;pending&#x60; - Pending * &#x60;finished&#x60; - Finished * &#x60;errored&#x60; - Errored * &#x60;skipped&#x60; - Skipped (optional)
      - parameter mimetype: (query)  (optional)
-     - parameter ordering: (query) Ordering (optional)
+     - parameter ordering: (query) Ordering  * &#x60;creation_date&#x60; - Creation date * &#x60;-creation_date&#x60; - Creation date (descending) * &#x60;modification_date&#x60; - Modification date * &#x60;-modification_date&#x60; - Modification date (descending) * &#x60;accessed_date&#x60; - Accessed date * &#x60;-accessed_date&#x60; - Accessed date (descending) * &#x60;size&#x60; - Size * &#x60;-size&#x60; - Size (descending) * &#x60;bitrate&#x60; - Bitrate * &#x60;-bitrate&#x60; - Bitrate (descending) * &#x60;duration&#x60; - Duration * &#x60;-duration&#x60; - Duration (descending) (optional)
      - parameter page: (query) A page number within the paginated result set. (optional)
      - parameter pageSize: (query) Number of results to return per page. (optional)
      - parameter privacyLevel: (query)  (optional)
@@ -2553,9 +2553,9 @@ open class ManageAPI {
      - parameter domain: (query)  (optional)
      - parameter fid: (query)  (optional)
      - parameter importReference: (query)  (optional)
-     - parameter importStatus: (query)  (optional)
+     - parameter importStatus: (query) * &#x60;draft&#x60; - Draft * &#x60;pending&#x60; - Pending * &#x60;finished&#x60; - Finished * &#x60;errored&#x60; - Errored * &#x60;skipped&#x60; - Skipped (optional)
      - parameter mimetype: (query)  (optional)
-     - parameter ordering: (query) Ordering (optional)
+     - parameter ordering: (query) Ordering  * &#x60;creation_date&#x60; - Creation date * &#x60;-creation_date&#x60; - Creation date (descending) * &#x60;modification_date&#x60; - Modification date * &#x60;-modification_date&#x60; - Modification date (descending) * &#x60;accessed_date&#x60; - Accessed date * &#x60;-accessed_date&#x60; - Accessed date (descending) * &#x60;size&#x60; - Size * &#x60;-size&#x60; - Size (descending) * &#x60;bitrate&#x60; - Bitrate * &#x60;-bitrate&#x60; - Bitrate (descending) * &#x60;duration&#x60; - Duration * &#x60;-duration&#x60; - Duration (descending) (optional)
      - parameter page: (query) A page number within the paginated result set. (optional)
      - parameter pageSize: (query) Number of results to return per page. (optional)
      - parameter privacyLevel: (query)  (optional)
@@ -2663,7 +2663,7 @@ open class ManageAPI {
      - parameter permissionLibrary: (query)  (optional)
      - parameter permissionModeration: (query)  (optional)
      - parameter permissionSettings: (query)  (optional)
-     - parameter privacyLevel: (query)  (optional)
+     - parameter privacyLevel: (query) * &#x60;me&#x60; - Only me * &#x60;followers&#x60; - Me and my followers * &#x60;instance&#x60; - Everyone on my instance, and my followers * &#x60;everyone&#x60; - Everyone, including people on other instances (optional)
      - parameter q: (query)  (optional)
      - parameter apiResponseQueue: The queue on which api response is dispatched.
      - parameter completion: completion handler to receive the data and the error objects
@@ -2697,7 +2697,7 @@ open class ManageAPI {
      - parameter permissionLibrary: (query)  (optional)
      - parameter permissionModeration: (query)  (optional)
      - parameter permissionSettings: (query)  (optional)
-     - parameter privacyLevel: (query)  (optional)
+     - parameter privacyLevel: (query) * &#x60;me&#x60; - Only me * &#x60;followers&#x60; - Me and my followers * &#x60;instance&#x60; - Everyone on my instance, and my followers * &#x60;everyone&#x60; - Everyone, including people on other instances (optional)
      - parameter q: (query)  (optional)
      - returns: RequestBuilder<PaginatedManageUserList> 
      */
@@ -3650,7 +3650,7 @@ open class ManageAPI {
      - parameter pageSize: (query) Number of results to return per page. (optional)
      - parameter q: (query)  (optional)
      - parameter submitterEmail: (query)  (optional)
-     - parameter type: (query)  (optional)
+     - parameter type: (query) * &#x60;takedown_request&#x60; - Takedown request * &#x60;invalid_metadata&#x60; - Invalid metadata * &#x60;illegal_content&#x60; - Illegal content * &#x60;offensive_content&#x60; - Offensive content * &#x60;other&#x60; - Other (optional)
      - parameter apiResponseQueue: The queue on which api response is dispatched.
      - parameter completion: completion handler to receive the data and the error objects
      */
@@ -3680,7 +3680,7 @@ open class ManageAPI {
      - parameter pageSize: (query) Number of results to return per page. (optional)
      - parameter q: (query)  (optional)
      - parameter submitterEmail: (query)  (optional)
-     - parameter type: (query)  (optional)
+     - parameter type: (query) * &#x60;takedown_request&#x60; - Takedown request * &#x60;invalid_metadata&#x60; - Invalid metadata * &#x60;illegal_content&#x60; - Illegal content * &#x60;offensive_content&#x60; - Offensive content * &#x60;other&#x60; - Other (optional)
      - returns: RequestBuilder<PaginatedManageReportList> 
      */
     open class func moderationGetReportsWithRequestBuilder(isHandled: Bool? = nil, ordering: String? = nil, page: Int? = nil, pageSize: Int? = nil, q: String? = nil, submitterEmail: String? = nil, type: ModelType_moderationGetReports? = nil) -> RequestBuilder<PaginatedManageReportList> {
@@ -3782,8 +3782,8 @@ open class ManageAPI {
      - parameter page: (query) A page number within the paginated result set. (optional)
      - parameter pageSize: (query) Number of results to return per page. (optional)
      - parameter q: (query)  (optional)
-     - parameter status: (query)  (optional)
-     - parameter type: (query)  (optional)
+     - parameter status: (query) * &#x60;pending&#x60; - Pending * &#x60;refused&#x60; - Refused * &#x60;approved&#x60; - Approved (optional)
+     - parameter type: (query) * &#x60;signup&#x60; - Sign-up (optional)
      - parameter apiResponseQueue: The queue on which api response is dispatched.
      - parameter completion: completion handler to receive the data and the error objects
      */
@@ -3811,8 +3811,8 @@ open class ManageAPI {
      - parameter page: (query) A page number within the paginated result set. (optional)
      - parameter pageSize: (query) Number of results to return per page. (optional)
      - parameter q: (query)  (optional)
-     - parameter status: (query)  (optional)
-     - parameter type: (query)  (optional)
+     - parameter status: (query) * &#x60;pending&#x60; - Pending * &#x60;refused&#x60; - Refused * &#x60;approved&#x60; - Approved (optional)
+     - parameter type: (query) * &#x60;signup&#x60; - Sign-up (optional)
      - returns: RequestBuilder<PaginatedManageUserRequestList> 
      */
     open class func moderationGetRequestsWithRequestBuilder(ordering: String? = nil, page: Int? = nil, pageSize: Int? = nil, q: String? = nil, status: Status_moderationGetRequests? = nil, type: ModelType_moderationGetRequests? = nil) -> RequestBuilder<PaginatedManageUserRequestList> {

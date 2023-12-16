@@ -218,7 +218,7 @@ open class LibrariesAPI {
      - parameter ordering: (query) Which field to use when ordering the results. (optional)
      - parameter page: (query) A page number within the paginated result set. (optional)
      - parameter pageSize: (query) Number of results to return per page. (optional)
-     - parameter privacyLevel: (query)  (optional)
+     - parameter privacyLevel: (query) * &#x60;me&#x60; - Only me * &#x60;instance&#x60; - Everyone on my instance, and my followers * &#x60;everyone&#x60; - Everyone, including people on other instances (optional)
      - parameter q: (query)  (optional)
      - parameter scope: (query)  (optional)
      - parameter apiResponseQueue: The queue on which api response is dispatched.
@@ -247,7 +247,7 @@ open class LibrariesAPI {
      - parameter ordering: (query) Which field to use when ordering the results. (optional)
      - parameter page: (query) A page number within the paginated result set. (optional)
      - parameter pageSize: (query) Number of results to return per page. (optional)
-     - parameter privacyLevel: (query)  (optional)
+     - parameter privacyLevel: (query) * &#x60;me&#x60; - Only me * &#x60;instance&#x60; - Everyone on my instance, and my followers * &#x60;everyone&#x60; - Everyone, including people on other instances (optional)
      - parameter q: (query)  (optional)
      - parameter scope: (query)  (optional)
      - returns: RequestBuilder<PaginatedLibraryForOwnerList> 
@@ -343,7 +343,7 @@ open class LibrariesAPI {
      - parameter ordering: (query) Which field to use when ordering the results. (optional)
      - parameter page: (query) A page number within the paginated result set. (optional)
      - parameter pageSize: (query) Number of results to return per page. (optional)
-     - parameter privacyLevel: (query)  (optional)
+     - parameter privacyLevel: (query) * &#x60;me&#x60; - Only me * &#x60;instance&#x60; - Everyone on my instance, and my followers * &#x60;everyone&#x60; - Everyone, including people on other instances (optional)
      - parameter q: (query)  (optional)
      - parameter scope: (query)  (optional)
      - parameter apiResponseQueue: The queue on which api response is dispatched.
@@ -373,7 +373,7 @@ open class LibrariesAPI {
      - parameter ordering: (query) Which field to use when ordering the results. (optional)
      - parameter page: (query) A page number within the paginated result set. (optional)
      - parameter pageSize: (query) Number of results to return per page. (optional)
-     - parameter privacyLevel: (query)  (optional)
+     - parameter privacyLevel: (query) * &#x60;me&#x60; - Only me * &#x60;instance&#x60; - Everyone on my instance, and my followers * &#x60;everyone&#x60; - Everyone, including people on other instances (optional)
      - parameter q: (query)  (optional)
      - parameter scope: (query)  (optional)
      - returns: RequestBuilder<PaginatedLibraryFollowList> 

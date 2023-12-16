@@ -23,9 +23,9 @@ public struct NodeInfo20: Codable, JSONEncodable, Hashable {
     public var services: Services?
     public var openRegistrations: Bool
     public var usage: Usage
-    public var metadata: Metadata
+    public var metadata: Metadata20
 
-    public init(version: String, software: Software, protocols: [AnyCodable], services: Services? = nil, openRegistrations: Bool, usage: Usage, metadata: Metadata) {
+    public init(version: String, software: Software, protocols: [AnyCodable], services: Services? = nil, openRegistrations: Bool, usage: Usage, metadata: Metadata20) {
         self.version = version
         self.software = software
         self.protocols = protocols

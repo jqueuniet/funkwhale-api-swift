@@ -15,6 +15,7 @@ public typealias ModerationTargetTypeEnum = FunkwhaleClientAPI.ModerationTargetT
 
 extension FunkwhaleClientAPI {
 
+/** * &#x60;artist&#x60; - artist */
 public enum ModerationTargetTypeEnum: String, Codable, CaseIterable {
     case artist = "artist"
 }

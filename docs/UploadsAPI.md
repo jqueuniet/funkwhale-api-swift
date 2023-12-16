@@ -266,7 +266,7 @@ import FunkwhaleClient
 let albumArtist = 987 // UUID |  (optional)
 let channel = "channel_example" // String |  (optional)
 let importReference = "importReference_example" // String |  (optional)
-let importStatus = ["importStatus_example"] // [String] |  (optional)
+let importStatus = ["importStatus_example"] // [String] | * `draft` - Draft * `pending` - Pending * `finished` - Finished * `errored` - Errored * `skipped` - Skipped (optional)
 let includeChannels = true // Bool |  (optional)
 let library = 987 // UUID |  (optional)
 let mimetype = "mimetype_example" // String |  (optional)
@@ -298,7 +298,7 @@ Name | Type | Description  | Notes
  **albumArtist** | **UUID** |  | [optional] 
  **channel** | **String** |  | [optional] 
  **importReference** | **String** |  | [optional] 
- **importStatus** | [**[String]**](String.md) |  | [optional] 
+ **importStatus** | [**[String]**](String.md) | * &#x60;draft&#x60; - Draft * &#x60;pending&#x60; - Pending * &#x60;finished&#x60; - Finished * &#x60;errored&#x60; - Errored * &#x60;skipped&#x60; - Skipped | [optional] 
  **includeChannels** | **Bool** |  | [optional] 
  **library** | **UUID** |  | [optional] 
  **mimetype** | **String** |  | [optional] 

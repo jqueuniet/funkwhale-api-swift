@@ -171,7 +171,7 @@ Void (empty response body)
 // The following code samples are still beta. For any issue, please report via http://github.com/OpenAPITools/openapi-generator/issues/new
 import FunkwhaleClient
 
-let radioSessionTrackSerializerCreateRequest = RadioSessionTrackSerializerCreateRequest(session: 123) // RadioSessionTrackSerializerCreateRequest | 
+let radioSessionTrackSerializerCreateRequest = RadioSessionTrackSerializerCreateRequest(session: 123, count: 123) // RadioSessionTrackSerializerCreateRequest | 
 
 RadiosAPI.getNextRadioTrack(radioSessionTrackSerializerCreateRequest: radioSessionTrackSerializerCreateRequest) { (response, error) in
     guard error == nil else {

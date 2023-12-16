@@ -15,6 +15,7 @@ public typealias ImportStatusEnum = FunkwhaleClientAPI.ImportStatusEnum
 
 extension FunkwhaleClientAPI {
 
+/** * &#x60;draft&#x60; - Draft * &#x60;pending&#x60; - Pending * &#x60;finished&#x60; - Finished * &#x60;errored&#x60; - Errored * &#x60;skipped&#x60; - Skipped */
 public enum ImportStatusEnum: String, Codable, CaseIterable {
     case draft = "draft"
     case pending = "pending"

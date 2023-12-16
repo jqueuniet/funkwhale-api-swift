@@ -15,6 +15,7 @@ public typealias ManageUserRequestTypeEnum = FunkwhaleClientAPI.ManageUserReques
 
 extension FunkwhaleClientAPI {
 
+/** * &#x60;signup&#x60; - Sign-up */
 public enum ManageUserRequestTypeEnum: String, Codable, CaseIterable {
     case signup = "signup"
 }

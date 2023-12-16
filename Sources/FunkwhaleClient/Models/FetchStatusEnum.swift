@@ -15,6 +15,7 @@ public typealias FetchStatusEnum = FunkwhaleClientAPI.FetchStatusEnum
 
 extension FunkwhaleClientAPI {
 
+/** * &#x60;pending&#x60; - Pending * &#x60;errored&#x60; - Errored * &#x60;finished&#x60; - Finished * &#x60;skipped&#x60; - Skipped */
 public enum FetchStatusEnum: String, Codable, CaseIterable {
     case pending = "pending"
     case errored = "errored"

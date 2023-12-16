@@ -15,6 +15,7 @@ public typealias ManageTargetTypeEnum = FunkwhaleClientAPI.ManageTargetTypeEnum
 
 extension FunkwhaleClientAPI {
 
+/** * &#x60;domain&#x60; - domain * &#x60;actor&#x60; - actor */
 public enum ManageTargetTypeEnum: String, Codable, CaseIterable {
     case domain = "domain"
     case actor = "actor"

@@ -15,6 +15,7 @@ public typealias ContentCategoryEnum = FunkwhaleClientAPI.ContentCategoryEnum
 
 extension FunkwhaleClientAPI {
 
+/** * &#x60;music&#x60; - music * &#x60;podcast&#x60; - podcast * &#x60;other&#x60; - other */
 public enum ContentCategoryEnum: String, Codable, CaseIterable {
     case music = "music"
     case podcast = "podcast"

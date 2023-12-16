@@ -237,7 +237,7 @@ let includeChannels = true // Bool |  (optional)
 let library = "library_example" // String |  (optional)
 let license = "license_example" // String |  (optional)
 let mbid = 987 // UUID |  (optional)
-let ordering = ["ordering_example"] // [String] | Ordering (optional)
+let ordering = ["ordering_example"] // [String] | Ordering  * `creation_date` - Creation date * `-creation_date` - Creation date (descending) * `title` - Title * `-title` - Title (descending) * `album__title` - Album  title * `-album__title` - Album  title (descending) * `album__release_date` - Album  release date * `-album__release_date` - Album  release date (descending) * `size` - Size * `-size` - Size (descending) * `position` - Position * `-position` - Position (descending) * `disc_number` - Disc number * `-disc_number` - Disc number (descending) * `artist__name` - Artist  name * `-artist__name` - Artist  name (descending) * `artist__modification_date` - Artist  modification date * `-artist__modification_date` - Artist  modification date (descending) * `random` - Random * `-random` - Random (descending) * `related` - Related * `-related` - Related (descending) (optional)
 let page = 987 // Int | A page number within the paginated result set. (optional)
 let pageSize = 987 // Int | Number of results to return per page. (optional)
 let playable = true // Bool |  (optional)
@@ -275,7 +275,7 @@ Name | Type | Description  | Notes
  **library** | **String** |  | [optional] 
  **license** | **String** |  | [optional] 
  **mbid** | **UUID** |  | [optional] 
- **ordering** | [**[String]**](String.md) | Ordering | [optional] 
+ **ordering** | [**[String]**](String.md) | Ordering  * &#x60;creation_date&#x60; - Creation date * &#x60;-creation_date&#x60; - Creation date (descending) * &#x60;title&#x60; - Title * &#x60;-title&#x60; - Title (descending) * &#x60;album__title&#x60; - Album  title * &#x60;-album__title&#x60; - Album  title (descending) * &#x60;album__release_date&#x60; - Album  release date * &#x60;-album__release_date&#x60; - Album  release date (descending) * &#x60;size&#x60; - Size * &#x60;-size&#x60; - Size (descending) * &#x60;position&#x60; - Position * &#x60;-position&#x60; - Position (descending) * &#x60;disc_number&#x60; - Disc number * &#x60;-disc_number&#x60; - Disc number (descending) * &#x60;artist__name&#x60; - Artist  name * &#x60;-artist__name&#x60; - Artist  name (descending) * &#x60;artist__modification_date&#x60; - Artist  modification date * &#x60;-artist__modification_date&#x60; - Artist  modification date (descending) * &#x60;random&#x60; - Random * &#x60;-random&#x60; - Random (descending) * &#x60;related&#x60; - Related * &#x60;-related&#x60; - Related (descending) | [optional] 
  **page** | **Int** | A page number within the paginated result set. | [optional] 
  **pageSize** | **Int** | Number of results to return per page. | [optional] 
  **playable** | **Bool** |  | [optional] 
@@ -326,7 +326,7 @@ let includeChannels = true // Bool |  (optional)
 let library = "library_example" // String |  (optional)
 let license = "license_example" // String |  (optional)
 let mbid = 987 // UUID |  (optional)
-let ordering = ["ordering_example"] // [String] | Ordering (optional)
+let ordering = ["ordering_example"] // [String] | Ordering  * `creation_date` - Creation date * `-creation_date` - Creation date (descending) * `title` - Title * `-title` - Title (descending) * `album__title` - Album  title * `-album__title` - Album  title (descending) * `album__release_date` - Album  release date * `-album__release_date` - Album  release date (descending) * `size` - Size * `-size` - Size (descending) * `position` - Position * `-position` - Position (descending) * `disc_number` - Disc number * `-disc_number` - Disc number (descending) * `artist__name` - Artist  name * `-artist__name` - Artist  name (descending) * `artist__modification_date` - Artist  modification date * `-artist__modification_date` - Artist  modification date (descending) * `random` - Random * `-random` - Random (descending) * `related` - Related * `-related` - Related (descending) (optional)
 let page = 987 // Int | A page number within the paginated result set. (optional)
 let pageSize = 987 // Int | Number of results to return per page. (optional)
 let playable = true // Bool |  (optional)
@@ -364,7 +364,7 @@ Name | Type | Description  | Notes
  **library** | **String** |  | [optional] 
  **license** | **String** |  | [optional] 
  **mbid** | **UUID** |  | [optional] 
- **ordering** | [**[String]**](String.md) | Ordering | [optional] 
+ **ordering** | [**[String]**](String.md) | Ordering  * &#x60;creation_date&#x60; - Creation date * &#x60;-creation_date&#x60; - Creation date (descending) * &#x60;title&#x60; - Title * &#x60;-title&#x60; - Title (descending) * &#x60;album__title&#x60; - Album  title * &#x60;-album__title&#x60; - Album  title (descending) * &#x60;album__release_date&#x60; - Album  release date * &#x60;-album__release_date&#x60; - Album  release date (descending) * &#x60;size&#x60; - Size * &#x60;-size&#x60; - Size (descending) * &#x60;position&#x60; - Position * &#x60;-position&#x60; - Position (descending) * &#x60;disc_number&#x60; - Disc number * &#x60;-disc_number&#x60; - Disc number (descending) * &#x60;artist__name&#x60; - Artist  name * &#x60;-artist__name&#x60; - Artist  name (descending) * &#x60;artist__modification_date&#x60; - Artist  modification date * &#x60;-artist__modification_date&#x60; - Artist  modification date (descending) * &#x60;random&#x60; - Random * &#x60;-random&#x60; - Random (descending) * &#x60;related&#x60; - Related * &#x60;-related&#x60; - Related (descending) | [optional] 
  **page** | **Int** | A page number within the paginated result set. | [optional] 
  **pageSize** | **Int** | Number of results to return per page. | [optional] 
  **playable** | **Bool** |  | [optional] 
@@ -415,7 +415,7 @@ let includeChannels = true // Bool |  (optional)
 let library = "library_example" // String |  (optional)
 let license = "license_example" // String |  (optional)
 let mbid = 987 // UUID |  (optional)
-let ordering = ["ordering_example"] // [String] | Ordering (optional)
+let ordering = ["ordering_example"] // [String] | Ordering  * `creation_date` - Creation date * `-creation_date` - Creation date (descending) * `title` - Title * `-title` - Title (descending) * `album__title` - Album  title * `-album__title` - Album  title (descending) * `album__release_date` - Album  release date * `-album__release_date` - Album  release date (descending) * `size` - Size * `-size` - Size (descending) * `position` - Position * `-position` - Position (descending) * `disc_number` - Disc number * `-disc_number` - Disc number (descending) * `artist__name` - Artist  name * `-artist__name` - Artist  name (descending) * `artist__modification_date` - Artist  modification date * `-artist__modification_date` - Artist  modification date (descending) * `random` - Random * `-random` - Random (descending) * `related` - Related * `-related` - Related (descending) (optional)
 let page = 987 // Int | A page number within the paginated result set. (optional)
 let pageSize = 987 // Int | Number of results to return per page. (optional)
 let playable = true // Bool |  (optional)
@@ -453,7 +453,7 @@ Name | Type | Description  | Notes
  **library** | **String** |  | [optional] 
  **license** | **String** |  | [optional] 
  **mbid** | **UUID** |  | [optional] 
- **ordering** | [**[String]**](String.md) | Ordering | [optional] 
+ **ordering** | [**[String]**](String.md) | Ordering  * &#x60;creation_date&#x60; - Creation date * &#x60;-creation_date&#x60; - Creation date (descending) * &#x60;title&#x60; - Title * &#x60;-title&#x60; - Title (descending) * &#x60;album__title&#x60; - Album  title * &#x60;-album__title&#x60; - Album  title (descending) * &#x60;album__release_date&#x60; - Album  release date * &#x60;-album__release_date&#x60; - Album  release date (descending) * &#x60;size&#x60; - Size * &#x60;-size&#x60; - Size (descending) * &#x60;position&#x60; - Position * &#x60;-position&#x60; - Position (descending) * &#x60;disc_number&#x60; - Disc number * &#x60;-disc_number&#x60; - Disc number (descending) * &#x60;artist__name&#x60; - Artist  name * &#x60;-artist__name&#x60; - Artist  name (descending) * &#x60;artist__modification_date&#x60; - Artist  modification date * &#x60;-artist__modification_date&#x60; - Artist  modification date (descending) * &#x60;random&#x60; - Random * &#x60;-random&#x60; - Random (descending) * &#x60;related&#x60; - Related * &#x60;-related&#x60; - Related (descending) | [optional] 
  **page** | **Int** | A page number within the paginated result set. | [optional] 
  **pageSize** | **Int** | Number of results to return per page. | [optional] 
  **playable** | **Bool** |  | [optional] 
@@ -504,7 +504,7 @@ let includeChannels = true // Bool |  (optional)
 let library = "library_example" // String |  (optional)
 let license = "license_example" // String |  (optional)
 let mbid = 987 // UUID |  (optional)
-let ordering = ["ordering_example"] // [String] | Ordering (optional)
+let ordering = ["ordering_example"] // [String] | Ordering  * `creation_date` - Creation date * `-creation_date` - Creation date (descending) * `title` - Title * `-title` - Title (descending) * `album__title` - Album  title * `-album__title` - Album  title (descending) * `album__release_date` - Album  release date * `-album__release_date` - Album  release date (descending) * `size` - Size * `-size` - Size (descending) * `position` - Position * `-position` - Position (descending) * `disc_number` - Disc number * `-disc_number` - Disc number (descending) * `artist__name` - Artist  name * `-artist__name` - Artist  name (descending) * `artist__modification_date` - Artist  modification date * `-artist__modification_date` - Artist  modification date (descending) * `random` - Random * `-random` - Random (descending) * `related` - Related * `-related` - Related (descending) (optional)
 let page = 987 // Int | A page number within the paginated result set. (optional)
 let pageSize = 987 // Int | Number of results to return per page. (optional)
 let playable = true // Bool |  (optional)
@@ -542,7 +542,7 @@ Name | Type | Description  | Notes
  **library** | **String** |  | [optional] 
  **license** | **String** |  | [optional] 
  **mbid** | **UUID** |  | [optional] 
- **ordering** | [**[String]**](String.md) | Ordering | [optional] 
+ **ordering** | [**[String]**](String.md) | Ordering  * &#x60;creation_date&#x60; - Creation date * &#x60;-creation_date&#x60; - Creation date (descending) * &#x60;title&#x60; - Title * &#x60;-title&#x60; - Title (descending) * &#x60;album__title&#x60; - Album  title * &#x60;-album__title&#x60; - Album  title (descending) * &#x60;album__release_date&#x60; - Album  release date * &#x60;-album__release_date&#x60; - Album  release date (descending) * &#x60;size&#x60; - Size * &#x60;-size&#x60; - Size (descending) * &#x60;position&#x60; - Position * &#x60;-position&#x60; - Position (descending) * &#x60;disc_number&#x60; - Disc number * &#x60;-disc_number&#x60; - Disc number (descending) * &#x60;artist__name&#x60; - Artist  name * &#x60;-artist__name&#x60; - Artist  name (descending) * &#x60;artist__modification_date&#x60; - Artist  modification date * &#x60;-artist__modification_date&#x60; - Artist  modification date (descending) * &#x60;random&#x60; - Random * &#x60;-random&#x60; - Random (descending) * &#x60;related&#x60; - Related * &#x60;-related&#x60; - Related (descending) | [optional] 
  **page** | **Int** | A page number within the paginated result set. | [optional] 
  **pageSize** | **Int** | Number of results to return per page. | [optional] 
  **playable** | **Bool** |  | [optional] 

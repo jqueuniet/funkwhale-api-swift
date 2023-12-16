@@ -1105,7 +1105,7 @@ let ordering = "ordering_example" // String | Which field to use when ordering t
 let page = 987 // Int | A page number within the paginated result set. (optional)
 let pageSize = 987 // Int | Number of results to return per page. (optional)
 let q = "q_example" // String |  (optional)
-let type = "type_example" // String |  (optional)
+let type = "type_example" // String | * `Person` - Person * `Tombstone` - Tombstone * `Application` - Application * `Group` - Group * `Organization` - Organization * `Service` - Service (optional)
 
 ManageAPI.adminGetAccounts(domain: domain, local: local, manuallyApprovesFollowers: manuallyApprovesFollowers, ordering: ordering, page: page, pageSize: pageSize, q: q, type: type) { (response, error) in
     guard error == nil else {
@@ -1130,7 +1130,7 @@ Name | Type | Description  | Notes
  **page** | **Int** | A page number within the paginated result set. | [optional] 
  **pageSize** | **Int** | Number of results to return per page. | [optional] 
  **q** | **String** |  | [optional] 
- **type** | **String** |  | [optional] 
+ **type** | **String** | * &#x60;Person&#x60; - Person * &#x60;Tombstone&#x60; - Tombstone * &#x60;Application&#x60; - Application * &#x60;Group&#x60; - Group * &#x60;Organization&#x60; - Organization * &#x60;Service&#x60; - Service | [optional] 
 
 ### Return type
 
@@ -1314,7 +1314,7 @@ Name | Type | Description  | Notes
 // The following code samples are still beta. For any issue, please report via http://github.com/OpenAPITools/openapi-generator/issues/new
 import FunkwhaleClient
 
-let contentCategory = "contentCategory_example" // String |  (optional)
+let contentCategory = "contentCategory_example" // String | * `music` - music * `podcast` - podcast * `other` - other (optional)
 let fid = "fid_example" // String |  (optional)
 let mbid = 987 // UUID |  (optional)
 let name = "name_example" // String |  (optional)
@@ -1339,7 +1339,7 @@ ManageAPI.adminGetArtists(contentCategory: contentCategory, fid: fid, mbid: mbid
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **contentCategory** | **String** |  | [optional] 
+ **contentCategory** | **String** | * &#x60;music&#x60; - music * &#x60;podcast&#x60; - podcast * &#x60;other&#x60; - other | [optional] 
  **fid** | **String** |  | [optional] 
  **mbid** | **UUID** |  | [optional] 
  **name** | **String** |  | [optional] 
@@ -1825,10 +1825,10 @@ import FunkwhaleClient
 let domain = "domain_example" // String |  (optional)
 let fid = "fid_example" // String |  (optional)
 let name = "name_example" // String |  (optional)
-let ordering = ["ordering_example"] // [String] | Ordering (optional)
+let ordering = ["ordering_example"] // [String] | Ordering  * `creation_date` - Creation date * `-creation_date` - Creation date (descending) * `uploads_count` - Uploads count * `-uploads_count` - Uploads count (descending) * `followers_count` - Followers count * `-followers_count` - Followers count (descending) (optional)
 let page = 987 // Int | A page number within the paginated result set. (optional)
 let pageSize = 987 // Int | Number of results to return per page. (optional)
-let privacyLevel = "privacyLevel_example" // String |  (optional)
+let privacyLevel = "privacyLevel_example" // String | * `me` - Only me * `instance` - Everyone on my instance, and my followers * `everyone` - Everyone, including people on other instances (optional)
 let q = "q_example" // String |  (optional)
 
 ManageAPI.adminGetLibraries(domain: domain, fid: fid, name: name, ordering: ordering, page: page, pageSize: pageSize, privacyLevel: privacyLevel, q: q) { (response, error) in
@@ -1850,10 +1850,10 @@ Name | Type | Description  | Notes
  **domain** | **String** |  | [optional] 
  **fid** | **String** |  | [optional] 
  **name** | **String** |  | [optional] 
- **ordering** | [**[String]**](String.md) | Ordering | [optional] 
+ **ordering** | [**[String]**](String.md) | Ordering  * &#x60;creation_date&#x60; - Creation date * &#x60;-creation_date&#x60; - Creation date (descending) * &#x60;uploads_count&#x60; - Uploads count * &#x60;-uploads_count&#x60; - Uploads count (descending) * &#x60;followers_count&#x60; - Followers count * &#x60;-followers_count&#x60; - Followers count (descending) | [optional] 
  **page** | **Int** | A page number within the paginated result set. | [optional] 
  **pageSize** | **Int** | Number of results to return per page. | [optional] 
- **privacyLevel** | **String** |  | [optional] 
+ **privacyLevel** | **String** | * &#x60;me&#x60; - Only me * &#x60;instance&#x60; - Everyone on my instance, and my followers * &#x60;everyone&#x60; - Everyone, including people on other instances | [optional] 
  **q** | **String** |  | [optional] 
 
 ### Return type
@@ -2380,9 +2380,9 @@ import FunkwhaleClient
 let domain = "domain_example" // String |  (optional)
 let fid = "fid_example" // String |  (optional)
 let importReference = "importReference_example" // String |  (optional)
-let importStatus = "importStatus_example" // String |  (optional)
+let importStatus = "importStatus_example" // String | * `draft` - Draft * `pending` - Pending * `finished` - Finished * `errored` - Errored * `skipped` - Skipped (optional)
 let mimetype = "mimetype_example" // String |  (optional)
-let ordering = ["ordering_example"] // [String] | Ordering (optional)
+let ordering = ["ordering_example"] // [String] | Ordering  * `creation_date` - Creation date * `-creation_date` - Creation date (descending) * `modification_date` - Modification date * `-modification_date` - Modification date (descending) * `accessed_date` - Accessed date * `-accessed_date` - Accessed date (descending) * `size` - Size * `-size` - Size (descending) * `bitrate` - Bitrate * `-bitrate` - Bitrate (descending) * `duration` - Duration * `-duration` - Duration (descending) (optional)
 let page = 987 // Int | A page number within the paginated result set. (optional)
 let pageSize = 987 // Int | Number of results to return per page. (optional)
 let privacyLevel = "privacyLevel_example" // String |  (optional)
@@ -2407,9 +2407,9 @@ Name | Type | Description  | Notes
  **domain** | **String** |  | [optional] 
  **fid** | **String** |  | [optional] 
  **importReference** | **String** |  | [optional] 
- **importStatus** | **String** |  | [optional] 
+ **importStatus** | **String** | * &#x60;draft&#x60; - Draft * &#x60;pending&#x60; - Pending * &#x60;finished&#x60; - Finished * &#x60;errored&#x60; - Errored * &#x60;skipped&#x60; - Skipped | [optional] 
  **mimetype** | **String** |  | [optional] 
- **ordering** | [**[String]**](String.md) | Ordering | [optional] 
+ **ordering** | [**[String]**](String.md) | Ordering  * &#x60;creation_date&#x60; - Creation date * &#x60;-creation_date&#x60; - Creation date (descending) * &#x60;modification_date&#x60; - Modification date * &#x60;-modification_date&#x60; - Modification date (descending) * &#x60;accessed_date&#x60; - Accessed date * &#x60;-accessed_date&#x60; - Accessed date (descending) * &#x60;size&#x60; - Size * &#x60;-size&#x60; - Size (descending) * &#x60;bitrate&#x60; - Bitrate * &#x60;-bitrate&#x60; - Bitrate (descending) * &#x60;duration&#x60; - Duration * &#x60;-duration&#x60; - Duration (descending) | [optional] 
  **page** | **Int** | A page number within the paginated result set. | [optional] 
  **pageSize** | **Int** | Number of results to return per page. | [optional] 
  **privacyLevel** | **String** |  | [optional] 
@@ -2498,7 +2498,7 @@ let pageSize = 987 // Int | Number of results to return per page. (optional)
 let permissionLibrary = true // Bool |  (optional)
 let permissionModeration = true // Bool |  (optional)
 let permissionSettings = true // Bool |  (optional)
-let privacyLevel = "privacyLevel_example" // String |  (optional)
+let privacyLevel = "privacyLevel_example" // String | * `me` - Only me * `followers` - Me and my followers * `instance` - Everyone on my instance, and my followers * `everyone` - Everyone, including people on other instances (optional)
 let q = "q_example" // String |  (optional)
 
 ManageAPI.adminGetUsers(isActive: isActive, isStaff: isStaff, isSuperuser: isSuperuser, ordering: ordering, page: page, pageSize: pageSize, permissionLibrary: permissionLibrary, permissionModeration: permissionModeration, permissionSettings: permissionSettings, privacyLevel: privacyLevel, q: q) { (response, error) in
@@ -2526,7 +2526,7 @@ Name | Type | Description  | Notes
  **permissionLibrary** | **Bool** |  | [optional] 
  **permissionModeration** | **Bool** |  | [optional] 
  **permissionSettings** | **Bool** |  | [optional] 
- **privacyLevel** | **String** |  | [optional] 
+ **privacyLevel** | **String** | * &#x60;me&#x60; - Only me * &#x60;followers&#x60; - Me and my followers * &#x60;instance&#x60; - Everyone on my instance, and my followers * &#x60;everyone&#x60; - Everyone, including people on other instances | [optional] 
  **q** | **String** |  | [optional] 
 
 ### Return type
@@ -3403,7 +3403,7 @@ let page = 987 // Int | A page number within the paginated result set. (optional
 let pageSize = 987 // Int | Number of results to return per page. (optional)
 let q = "q_example" // String |  (optional)
 let submitterEmail = "submitterEmail_example" // String |  (optional)
-let type = "type_example" // String |  (optional)
+let type = "type_example" // String | * `takedown_request` - Takedown request * `invalid_metadata` - Invalid metadata * `illegal_content` - Illegal content * `offensive_content` - Offensive content * `other` - Other (optional)
 
 ManageAPI.moderationGetReports(isHandled: isHandled, ordering: ordering, page: page, pageSize: pageSize, q: q, submitterEmail: submitterEmail, type: type) { (response, error) in
     guard error == nil else {
@@ -3427,7 +3427,7 @@ Name | Type | Description  | Notes
  **pageSize** | **Int** | Number of results to return per page. | [optional] 
  **q** | **String** |  | [optional] 
  **submitterEmail** | **String** |  | [optional] 
- **type** | **String** |  | [optional] 
+ **type** | **String** | * &#x60;takedown_request&#x60; - Takedown request * &#x60;invalid_metadata&#x60; - Invalid metadata * &#x60;illegal_content&#x60; - Illegal content * &#x60;offensive_content&#x60; - Offensive content * &#x60;other&#x60; - Other | [optional] 
 
 ### Return type
 
@@ -3507,8 +3507,8 @@ let ordering = "ordering_example" // String | Which field to use when ordering t
 let page = 987 // Int | A page number within the paginated result set. (optional)
 let pageSize = 987 // Int | Number of results to return per page. (optional)
 let q = "q_example" // String |  (optional)
-let status = "status_example" // String |  (optional)
-let type = "type_example" // String |  (optional)
+let status = "status_example" // String | * `pending` - Pending * `refused` - Refused * `approved` - Approved (optional)
+let type = "type_example" // String | * `signup` - Sign-up (optional)
 
 ManageAPI.moderationGetRequests(ordering: ordering, page: page, pageSize: pageSize, q: q, status: status, type: type) { (response, error) in
     guard error == nil else {
@@ -3530,8 +3530,8 @@ Name | Type | Description  | Notes
  **page** | **Int** | A page number within the paginated result set. | [optional] 
  **pageSize** | **Int** | Number of results to return per page. | [optional] 
  **q** | **String** |  | [optional] 
- **status** | **String** |  | [optional] 
- **type** | **String** |  | [optional] 
+ **status** | **String** | * &#x60;pending&#x60; - Pending * &#x60;refused&#x60; - Refused * &#x60;approved&#x60; - Approved | [optional] 
+ **type** | **String** | * &#x60;signup&#x60; - Sign-up | [optional] 
 
 ### Return type
 

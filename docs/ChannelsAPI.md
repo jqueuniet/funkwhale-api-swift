@@ -263,7 +263,7 @@ import FunkwhaleClient
 
 let external = true // Bool |  (optional)
 let hidden = true // Bool |  (optional)
-let ordering = ["ordering_example"] // [String] | Ordering (optional)
+let ordering = ["ordering_example"] // [String] | Ordering  * `creation_date` - Creation date * `-creation_date` - Creation date (descending) * `modification_date` - Modification date * `-modification_date` - Modification date (descending) * `random` - Random * `-random` - Random (descending) (optional)
 let page = 987 // Int | A page number within the paginated result set. (optional)
 let pageSize = 987 // Int | Number of results to return per page. (optional)
 let q = "q_example" // String |  (optional)
@@ -289,7 +289,7 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **external** | **Bool** |  | [optional] 
  **hidden** | **Bool** |  | [optional] 
- **ordering** | [**[String]**](String.md) | Ordering | [optional] 
+ **ordering** | [**[String]**](String.md) | Ordering  * &#x60;creation_date&#x60; - Creation date * &#x60;-creation_date&#x60; - Creation date (descending) * &#x60;modification_date&#x60; - Modification date * &#x60;-modification_date&#x60; - Modification date (descending) * &#x60;random&#x60; - Random * &#x60;-random&#x60; - Random (descending) | [optional] 
  **page** | **Int** | A page number within the paginated result set. | [optional] 
  **pageSize** | **Int** | Number of results to return per page. | [optional] 
  **q** | **String** |  | [optional] 

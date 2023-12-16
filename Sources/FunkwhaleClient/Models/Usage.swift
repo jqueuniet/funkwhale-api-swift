@@ -18,13 +18,19 @@ extension FunkwhaleClientAPI {
 public struct Usage: Codable, JSONEncodable, Hashable {
 
     public var users: UsersUsage
+    public var localPosts: Int?
+    public var localComments: Int?
 
-    public init(users: UsersUsage) {
+    public init(users: UsersUsage, localPosts: Int? = nil, localComments: Int? = nil) {
         self.users = users
+        self.localPosts = localPosts
+        self.localComments = localComments
     }
 
     public enum CodingKeys: String, CodingKey, CaseIterable {
         case users
+        case localPosts
+        case localComments
     }
 
     // Encodable protocol methods
@@ -32,6 +38,8 @@ public struct Usage: Codable, JSONEncodable, Hashable {
     public func encode(to encoder: Encoder) throws {
         var container = encoder.container(keyedBy: CodingKeys.self)
         try container.encode(users, forKey: .users)
+        try container.encodeIfPresent(localPosts, forKey: .localPosts)
+        try container.encodeIfPresent(localComments, forKey: .localComments)
     }
 }
 

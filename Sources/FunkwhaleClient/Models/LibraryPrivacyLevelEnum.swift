@@ -15,6 +15,7 @@ public typealias LibraryPrivacyLevelEnum = FunkwhaleClientAPI.LibraryPrivacyLeve
 
 extension FunkwhaleClientAPI {
 
+/** * &#x60;me&#x60; - Only me * &#x60;instance&#x60; - Everyone on my instance, and my followers * &#x60;everyone&#x60; - Everyone, including people on other instances */
 public enum LibraryPrivacyLevelEnum: String, Codable, CaseIterable {
     case me = "me"
     case instance = "instance"

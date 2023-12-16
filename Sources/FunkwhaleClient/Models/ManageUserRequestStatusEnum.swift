@@ -15,6 +15,7 @@ public typealias ManageUserRequestStatusEnum = FunkwhaleClientAPI.ManageUserRequ
 
 extension FunkwhaleClientAPI {
 
+/** * &#x60;pending&#x60; - Pending * &#x60;refused&#x60; - Refused * &#x60;approved&#x60; - Approved */
 public enum ManageUserRequestStatusEnum: String, Codable, CaseIterable {
     case pending = "pending"
     case refused = "refused"

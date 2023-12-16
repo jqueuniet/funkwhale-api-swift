@@ -69,7 +69,7 @@ import FunkwhaleClient
 
 let name = "name_example" // String |  (optional)
 let nameStartswith = "nameStartswith_example" // String |  (optional)
-let ordering = ["ordering_example"] // [String] | Ordering (optional)
+let ordering = ["ordering_example"] // [String] | Ordering  * `name` - Name * `-name` - Name (descending) * `creation_date` - Creation date * `-creation_date` - Creation date (descending) * `length` - Length * `-length` - Length (descending) (optional)
 let page = 987 // Int | A page number within the paginated result set. (optional)
 let pageSize = 987 // Int | Number of results to return per page. (optional)
 let q = "q_example" // String |  (optional)
@@ -92,7 +92,7 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **name** | **String** |  | [optional] 
  **nameStartswith** | **String** |  | [optional] 
- **ordering** | [**[String]**](String.md) | Ordering | [optional] 
+ **ordering** | [**[String]**](String.md) | Ordering  * &#x60;name&#x60; - Name * &#x60;-name&#x60; - Name (descending) * &#x60;creation_date&#x60; - Creation date * &#x60;-creation_date&#x60; - Creation date (descending) * &#x60;length&#x60; - Length * &#x60;-length&#x60; - Length (descending) | [optional] 
  **page** | **Int** | A page number within the paginated result set. | [optional] 
  **pageSize** | **Int** | Number of results to return per page. | [optional] 
  **q** | **String** |  | [optional] 

@@ -181,7 +181,7 @@ let name = "name_example" // String |  (optional)
 let nameIcontains = "nameIcontains_example" // String |  (optional)
 let nameIexact = "nameIexact_example" // String |  (optional)
 let nameStartswith = "nameStartswith_example" // String |  (optional)
-let ordering = ["ordering_example"] // [String] | Ordering (optional)
+let ordering = ["ordering_example"] // [String] | Ordering  * `id` - Id * `-id` - Id (descending) * `name` - Name * `-name` - Name (descending) * `creation_date` - Creation date * `-creation_date` - Creation date (descending) * `modification_date` - Modification date * `-modification_date` - Modification date (descending) * `random` - Random * `-random` - Random (descending) * `related` - Related * `-related` - Related (descending) (optional)
 let page = 987 // Int | A page number within the paginated result set. (optional)
 let pageSize = 987 // Int | Number of results to return per page. (optional)
 let playable = true // Bool |  (optional)
@@ -217,7 +217,7 @@ Name | Type | Description  | Notes
  **nameIcontains** | **String** |  | [optional] 
  **nameIexact** | **String** |  | [optional] 
  **nameStartswith** | **String** |  | [optional] 
- **ordering** | [**[String]**](String.md) | Ordering | [optional] 
+ **ordering** | [**[String]**](String.md) | Ordering  * &#x60;id&#x60; - Id * &#x60;-id&#x60; - Id (descending) * &#x60;name&#x60; - Name * &#x60;-name&#x60; - Name (descending) * &#x60;creation_date&#x60; - Creation date * &#x60;-creation_date&#x60; - Creation date (descending) * &#x60;modification_date&#x60; - Modification date * &#x60;-modification_date&#x60; - Modification date (descending) * &#x60;random&#x60; - Random * &#x60;-random&#x60; - Random (descending) * &#x60;related&#x60; - Related * &#x60;-related&#x60; - Related (descending) | [optional] 
  **page** | **Int** | A page number within the paginated result set. | [optional] 
  **pageSize** | **Int** | Number of results to return per page. | [optional] 
  **playable** | **Bool** |  | [optional] 
@@ -264,7 +264,7 @@ let name = "name_example" // String |  (optional)
 let nameIcontains = "nameIcontains_example" // String |  (optional)
 let nameIexact = "nameIexact_example" // String |  (optional)
 let nameStartswith = "nameStartswith_example" // String |  (optional)
-let ordering = ["ordering_example"] // [String] | Ordering (optional)
+let ordering = ["ordering_example"] // [String] | Ordering  * `id` - Id * `-id` - Id (descending) * `name` - Name * `-name` - Name (descending) * `creation_date` - Creation date * `-creation_date` - Creation date (descending) * `modification_date` - Modification date * `-modification_date` - Modification date (descending) * `random` - Random * `-random` - Random (descending) * `related` - Related * `-related` - Related (descending) (optional)
 let page = 987 // Int | A page number within the paginated result set. (optional)
 let pageSize = 987 // Int | Number of results to return per page. (optional)
 let playable = true // Bool |  (optional)
@@ -300,7 +300,7 @@ Name | Type | Description  | Notes
  **nameIcontains** | **String** |  | [optional] 
  **nameIexact** | **String** |  | [optional] 
  **nameStartswith** | **String** |  | [optional] 
- **ordering** | [**[String]**](String.md) | Ordering | [optional] 
+ **ordering** | [**[String]**](String.md) | Ordering  * &#x60;id&#x60; - Id * &#x60;-id&#x60; - Id (descending) * &#x60;name&#x60; - Name * &#x60;-name&#x60; - Name (descending) * &#x60;creation_date&#x60; - Creation date * &#x60;-creation_date&#x60; - Creation date (descending) * &#x60;modification_date&#x60; - Modification date * &#x60;-modification_date&#x60; - Modification date (descending) * &#x60;random&#x60; - Random * &#x60;-random&#x60; - Random (descending) * &#x60;related&#x60; - Related * &#x60;-related&#x60; - Related (descending) | [optional] 
  **page** | **Int** | A page number within the paginated result set. | [optional] 
  **pageSize** | **Int** | Number of results to return per page. | [optional] 
  **playable** | **Bool** |  | [optional] 
@@ -347,7 +347,7 @@ let name = "name_example" // String |  (optional)
 let nameIcontains = "nameIcontains_example" // String |  (optional)
 let nameIexact = "nameIexact_example" // String |  (optional)
 let nameStartswith = "nameStartswith_example" // String |  (optional)
-let ordering = ["ordering_example"] // [String] | Ordering (optional)
+let ordering = ["ordering_example"] // [String] | Ordering  * `id` - Id * `-id` - Id (descending) * `name` - Name * `-name` - Name (descending) * `creation_date` - Creation date * `-creation_date` - Creation date (descending) * `modification_date` - Modification date * `-modification_date` - Modification date (descending) * `random` - Random * `-random` - Random (descending) * `related` - Related * `-related` - Related (descending) (optional)
 let page = 987 // Int | A page number within the paginated result set. (optional)
 let pageSize = 987 // Int | Number of results to return per page. (optional)
 let playable = true // Bool |  (optional)
@@ -383,7 +383,7 @@ Name | Type | Description  | Notes
  **nameIcontains** | **String** |  | [optional] 
  **nameIexact** | **String** |  | [optional] 
  **nameStartswith** | **String** |  | [optional] 
- **ordering** | [**[String]**](String.md) | Ordering | [optional] 
+ **ordering** | [**[String]**](String.md) | Ordering  * &#x60;id&#x60; - Id * &#x60;-id&#x60; - Id (descending) * &#x60;name&#x60; - Name * &#x60;-name&#x60; - Name (descending) * &#x60;creation_date&#x60; - Creation date * &#x60;-creation_date&#x60; - Creation date (descending) * &#x60;modification_date&#x60; - Modification date * &#x60;-modification_date&#x60; - Modification date (descending) * &#x60;random&#x60; - Random * &#x60;-random&#x60; - Random (descending) * &#x60;related&#x60; - Related * &#x60;-related&#x60; - Related (descending) | [optional] 
  **page** | **Int** | A page number within the paginated result set. | [optional] 
  **pageSize** | **Int** | Number of results to return per page. | [optional] 
  **playable** | **Bool** |  | [optional] 
@@ -429,7 +429,7 @@ let name = "name_example" // String |  (optional)
 let nameIcontains = "nameIcontains_example" // String |  (optional)
 let nameIexact = "nameIexact_example" // String |  (optional)
 let nameStartswith = "nameStartswith_example" // String |  (optional)
-let ordering = ["ordering_example"] // [String] | Ordering (optional)
+let ordering = ["ordering_example"] // [String] | Ordering  * `id` - Id * `-id` - Id (descending) * `name` - Name * `-name` - Name (descending) * `creation_date` - Creation date * `-creation_date` - Creation date (descending) * `modification_date` - Modification date * `-modification_date` - Modification date (descending) * `random` - Random * `-random` - Random (descending) * `related` - Related * `-related` - Related (descending) (optional)
 let page = 987 // Int | A page number within the paginated result set. (optional)
 let pageSize = 987 // Int | Number of results to return per page. (optional)
 let playable = true // Bool |  (optional)
@@ -464,7 +464,7 @@ Name | Type | Description  | Notes
  **nameIcontains** | **String** |  | [optional] 
  **nameIexact** | **String** |  | [optional] 
  **nameStartswith** | **String** |  | [optional] 
- **ordering** | [**[String]**](String.md) | Ordering | [optional] 
+ **ordering** | [**[String]**](String.md) | Ordering  * &#x60;id&#x60; - Id * &#x60;-id&#x60; - Id (descending) * &#x60;name&#x60; - Name * &#x60;-name&#x60; - Name (descending) * &#x60;creation_date&#x60; - Creation date * &#x60;-creation_date&#x60; - Creation date (descending) * &#x60;modification_date&#x60; - Modification date * &#x60;-modification_date&#x60; - Modification date (descending) * &#x60;random&#x60; - Random * &#x60;-random&#x60; - Random (descending) * &#x60;related&#x60; - Related * &#x60;-related&#x60; - Related (descending) | [optional] 
  **page** | **Int** | A page number within the paginated result set. | [optional] 
  **pageSize** | **Int** | Number of results to return per page. | [optional] 
  **playable** | **Bool** |  | [optional] 

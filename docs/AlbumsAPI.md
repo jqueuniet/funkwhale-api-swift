@@ -274,7 +274,7 @@ let hidden = true // Bool |  (optional)
 let includeChannels = true // Bool |  (optional)
 let library = "library_example" // String |  (optional)
 let mbid = 987 // UUID |  (optional)
-let ordering = ["ordering_example"] // [String] | Ordering (optional)
+let ordering = ["ordering_example"] // [String] | Ordering  * `creation_date` - Creation date * `-creation_date` - Creation date (descending) * `release_date` - Release date * `-release_date` - Release date (descending) * `title` - Title * `-title` - Title (descending) * `artist__modification_date` - Artist  modification date * `-artist__modification_date` - Artist  modification date (descending) * `random` - Random * `-random` - Random (descending) * `related` - Related * `-related` - Related (descending) (optional)
 let page = 987 // Int | A page number within the paginated result set. (optional)
 let pageSize = 987 // Int | Number of results to return per page. (optional)
 let playable = true // Bool |  (optional)
@@ -307,7 +307,7 @@ Name | Type | Description  | Notes
  **includeChannels** | **Bool** |  | [optional] 
  **library** | **String** |  | [optional] 
  **mbid** | **UUID** |  | [optional] 
- **ordering** | [**[String]**](String.md) | Ordering | [optional] 
+ **ordering** | [**[String]**](String.md) | Ordering  * &#x60;creation_date&#x60; - Creation date * &#x60;-creation_date&#x60; - Creation date (descending) * &#x60;release_date&#x60; - Release date * &#x60;-release_date&#x60; - Release date (descending) * &#x60;title&#x60; - Title * &#x60;-title&#x60; - Title (descending) * &#x60;artist__modification_date&#x60; - Artist  modification date * &#x60;-artist__modification_date&#x60; - Artist  modification date (descending) * &#x60;random&#x60; - Random * &#x60;-random&#x60; - Random (descending) * &#x60;related&#x60; - Related * &#x60;-related&#x60; - Related (descending) | [optional] 
  **page** | **Int** | A page number within the paginated result set. | [optional] 
  **pageSize** | **Int** | Number of results to return per page. | [optional] 
  **playable** | **Bool** |  | [optional] 
@@ -351,7 +351,7 @@ let hidden = true // Bool |  (optional)
 let includeChannels = true // Bool |  (optional)
 let library = "library_example" // String |  (optional)
 let mbid = 987 // UUID |  (optional)
-let ordering = ["ordering_example"] // [String] | Ordering (optional)
+let ordering = ["ordering_example"] // [String] | Ordering  * `creation_date` - Creation date * `-creation_date` - Creation date (descending) * `release_date` - Release date * `-release_date` - Release date (descending) * `title` - Title * `-title` - Title (descending) * `artist__modification_date` - Artist  modification date * `-artist__modification_date` - Artist  modification date (descending) * `random` - Random * `-random` - Random (descending) * `related` - Related * `-related` - Related (descending) (optional)
 let page = 987 // Int | A page number within the paginated result set. (optional)
 let pageSize = 987 // Int | Number of results to return per page. (optional)
 let playable = true // Bool |  (optional)
@@ -384,7 +384,7 @@ Name | Type | Description  | Notes
  **includeChannels** | **Bool** |  | [optional] 
  **library** | **String** |  | [optional] 
  **mbid** | **UUID** |  | [optional] 
- **ordering** | [**[String]**](String.md) | Ordering | [optional] 
+ **ordering** | [**[String]**](String.md) | Ordering  * &#x60;creation_date&#x60; - Creation date * &#x60;-creation_date&#x60; - Creation date (descending) * &#x60;release_date&#x60; - Release date * &#x60;-release_date&#x60; - Release date (descending) * &#x60;title&#x60; - Title * &#x60;-title&#x60; - Title (descending) * &#x60;artist__modification_date&#x60; - Artist  modification date * &#x60;-artist__modification_date&#x60; - Artist  modification date (descending) * &#x60;random&#x60; - Random * &#x60;-random&#x60; - Random (descending) * &#x60;related&#x60; - Related * &#x60;-related&#x60; - Related (descending) | [optional] 
  **page** | **Int** | A page number within the paginated result set. | [optional] 
  **pageSize** | **Int** | Number of results to return per page. | [optional] 
  **playable** | **Bool** |  | [optional] 
@@ -428,7 +428,7 @@ let hidden = true // Bool |  (optional)
 let includeChannels = true // Bool |  (optional)
 let library = "library_example" // String |  (optional)
 let mbid = 987 // UUID |  (optional)
-let ordering = ["ordering_example"] // [String] | Ordering (optional)
+let ordering = ["ordering_example"] // [String] | Ordering  * `creation_date` - Creation date * `-creation_date` - Creation date (descending) * `release_date` - Release date * `-release_date` - Release date (descending) * `title` - Title * `-title` - Title (descending) * `artist__modification_date` - Artist  modification date * `-artist__modification_date` - Artist  modification date (descending) * `random` - Random * `-random` - Random (descending) * `related` - Related * `-related` - Related (descending) (optional)
 let page = 987 // Int | A page number within the paginated result set. (optional)
 let pageSize = 987 // Int | Number of results to return per page. (optional)
 let playable = true // Bool |  (optional)
@@ -461,7 +461,7 @@ Name | Type | Description  | Notes
  **includeChannels** | **Bool** |  | [optional] 
  **library** | **String** |  | [optional] 
  **mbid** | **UUID** |  | [optional] 
- **ordering** | [**[String]**](String.md) | Ordering | [optional] 
+ **ordering** | [**[String]**](String.md) | Ordering  * &#x60;creation_date&#x60; - Creation date * &#x60;-creation_date&#x60; - Creation date (descending) * &#x60;release_date&#x60; - Release date * &#x60;-release_date&#x60; - Release date (descending) * &#x60;title&#x60; - Title * &#x60;-title&#x60; - Title (descending) * &#x60;artist__modification_date&#x60; - Artist  modification date * &#x60;-artist__modification_date&#x60; - Artist  modification date (descending) * &#x60;random&#x60; - Random * &#x60;-random&#x60; - Random (descending) * &#x60;related&#x60; - Related * &#x60;-related&#x60; - Related (descending) | [optional] 
  **page** | **Int** | A page number within the paginated result set. | [optional] 
  **pageSize** | **Int** | Number of results to return per page. | [optional] 
  **playable** | **Bool** |  | [optional] 
@@ -504,7 +504,7 @@ let hidden = true // Bool |  (optional)
 let includeChannels = true // Bool |  (optional)
 let library = "library_example" // String |  (optional)
 let mbid = 987 // UUID |  (optional)
-let ordering = ["ordering_example"] // [String] | Ordering (optional)
+let ordering = ["ordering_example"] // [String] | Ordering  * `creation_date` - Creation date * `-creation_date` - Creation date (descending) * `release_date` - Release date * `-release_date` - Release date (descending) * `title` - Title * `-title` - Title (descending) * `artist__modification_date` - Artist  modification date * `-artist__modification_date` - Artist  modification date (descending) * `random` - Random * `-random` - Random (descending) * `related` - Related * `-related` - Related (descending) (optional)
 let page = 987 // Int | A page number within the paginated result set. (optional)
 let pageSize = 987 // Int | Number of results to return per page. (optional)
 let playable = true // Bool |  (optional)
@@ -536,7 +536,7 @@ Name | Type | Description  | Notes
  **includeChannels** | **Bool** |  | [optional] 
  **library** | **String** |  | [optional] 
  **mbid** | **UUID** |  | [optional] 
- **ordering** | [**[String]**](String.md) | Ordering | [optional] 
+ **ordering** | [**[String]**](String.md) | Ordering  * &#x60;creation_date&#x60; - Creation date * &#x60;-creation_date&#x60; - Creation date (descending) * &#x60;release_date&#x60; - Release date * &#x60;-release_date&#x60; - Release date (descending) * &#x60;title&#x60; - Title * &#x60;-title&#x60; - Title (descending) * &#x60;artist__modification_date&#x60; - Artist  modification date * &#x60;-artist__modification_date&#x60; - Artist  modification date (descending) * &#x60;random&#x60; - Random * &#x60;-random&#x60; - Random (descending) * &#x60;related&#x60; - Related * &#x60;-related&#x60; - Related (descending) | [optional] 
  **page** | **Int** | A page number within the paginated result set. | [optional] 
  **pageSize** | **Int** | Number of results to return per page. | [optional] 
  **playable** | **Bool** |  | [optional] 

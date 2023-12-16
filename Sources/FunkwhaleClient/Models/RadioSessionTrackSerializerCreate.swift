@@ -18,13 +18,16 @@ extension FunkwhaleClientAPI {
 public struct RadioSessionTrackSerializerCreate: Codable, JSONEncodable, Hashable {
 
     public var session: Int
+    public var count: Int?
 
-    public init(session: Int) {
+    public init(session: Int, count: Int? = nil) {
         self.session = session
+        self.count = count
     }
 
     public enum CodingKeys: String, CodingKey, CaseIterable {
         case session
+        case count
     }
 
     // Encodable protocol methods
@@ -32,6 +35,7 @@ public struct RadioSessionTrackSerializerCreate: Codable, JSONEncodable, Hashabl
     public func encode(to encoder: Encoder) throws {
         var container = encoder.container(keyedBy: CodingKeys.self)
         try container.encode(session, forKey: .session)
+        try container.encodeIfPresent(count, forKey: .count)
     }
 }
 

@@ -215,7 +215,7 @@ import FunkwhaleClient
 let ordering = "ordering_example" // String | Which field to use when ordering the results. (optional)
 let page = 987 // Int | A page number within the paginated result set. (optional)
 let pageSize = 987 // Int | Number of results to return per page. (optional)
-let privacyLevel = "privacyLevel_example" // String |  (optional)
+let privacyLevel = "privacyLevel_example" // String | * `me` - Only me * `instance` - Everyone on my instance, and my followers * `everyone` - Everyone, including people on other instances (optional)
 let q = "q_example" // String |  (optional)
 let scope = "scope_example" // String |  (optional)
 
@@ -238,7 +238,7 @@ Name | Type | Description  | Notes
  **ordering** | **String** | Which field to use when ordering the results. | [optional] 
  **page** | **Int** | A page number within the paginated result set. | [optional] 
  **pageSize** | **Int** | Number of results to return per page. | [optional] 
- **privacyLevel** | **String** |  | [optional] 
+ **privacyLevel** | **String** | * &#x60;me&#x60; - Only me * &#x60;instance&#x60; - Everyone on my instance, and my followers * &#x60;everyone&#x60; - Everyone, including people on other instances | [optional] 
  **q** | **String** |  | [optional] 
  **scope** | **String** |  | [optional] 
 
@@ -320,7 +320,7 @@ let uuid = 987 // UUID |
 let ordering = "ordering_example" // String | Which field to use when ordering the results. (optional)
 let page = 987 // Int | A page number within the paginated result set. (optional)
 let pageSize = 987 // Int | Number of results to return per page. (optional)
-let privacyLevel = "privacyLevel_example" // String |  (optional)
+let privacyLevel = "privacyLevel_example" // String | * `me` - Only me * `instance` - Everyone on my instance, and my followers * `everyone` - Everyone, including people on other instances (optional)
 let q = "q_example" // String |  (optional)
 let scope = "scope_example" // String |  (optional)
 
@@ -344,7 +344,7 @@ Name | Type | Description  | Notes
  **ordering** | **String** | Which field to use when ordering the results. | [optional] 
  **page** | **Int** | A page number within the paginated result set. | [optional] 
  **pageSize** | **Int** | Number of results to return per page. | [optional] 
- **privacyLevel** | **String** |  | [optional] 
+ **privacyLevel** | **String** | * &#x60;me&#x60; - Only me * &#x60;instance&#x60; - Everyone on my instance, and my followers * &#x60;everyone&#x60; - Everyone, including people on other instances | [optional] 
  **q** | **String** |  | [optional] 
  **scope** | **String** |  | [optional] 
 

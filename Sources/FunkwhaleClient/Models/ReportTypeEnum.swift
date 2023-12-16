@@ -15,6 +15,7 @@ public typealias ReportTypeEnum = FunkwhaleClientAPI.ReportTypeEnum
 
 extension FunkwhaleClientAPI {
 
+/** * &#x60;takedown_request&#x60; - Takedown request * &#x60;invalid_metadata&#x60; - Invalid metadata * &#x60;illegal_content&#x60; - Illegal content * &#x60;offensive_content&#x60; - Offensive content * &#x60;other&#x60; - Other */
 public enum ReportTypeEnum: String, Codable, CaseIterable {
     case takedownRequest = "takedown_request"
     case invalidMetadata = "invalid_metadata"

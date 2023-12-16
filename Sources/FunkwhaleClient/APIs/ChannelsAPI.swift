@@ -273,7 +273,7 @@ open class ChannelsAPI {
 
      - parameter external: (query)  (optional)
      - parameter hidden: (query)  (optional)
-     - parameter ordering: (query) Ordering (optional)
+     - parameter ordering: (query) Ordering  * &#x60;creation_date&#x60; - Creation date * &#x60;-creation_date&#x60; - Creation date (descending) * &#x60;modification_date&#x60; - Modification date * &#x60;-modification_date&#x60; - Modification date (descending) * &#x60;random&#x60; - Random * &#x60;-random&#x60; - Random (descending) (optional)
      - parameter page: (query) A page number within the paginated result set. (optional)
      - parameter pageSize: (query) Number of results to return per page. (optional)
      - parameter q: (query)  (optional)
@@ -305,7 +305,7 @@ open class ChannelsAPI {
        - name: oauth2
      - parameter external: (query)  (optional)
      - parameter hidden: (query)  (optional)
-     - parameter ordering: (query) Ordering (optional)
+     - parameter ordering: (query) Ordering  * &#x60;creation_date&#x60; - Creation date * &#x60;-creation_date&#x60; - Creation date (descending) * &#x60;modification_date&#x60; - Modification date * &#x60;-modification_date&#x60; - Modification date (descending) * &#x60;random&#x60; - Random * &#x60;-random&#x60; - Random (descending) (optional)
      - parameter page: (query) A page number within the paginated result set. (optional)
      - parameter pageSize: (query) Number of results to return per page. (optional)
      - parameter q: (query)  (optional)
